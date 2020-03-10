@@ -4,13 +4,13 @@ This repository consists of the prototype website for Socialite. Our goal is to.
 ## Meet the Team
 ### Software Developers
 **David Deng** | First Year Computer Science Major<br/>
-<img src="components/assets/bio_imgs/david_deng.jpg" width="250">
+<img src="src/assets/bio_imgs/david_deng.jpg" width="250">
 
 **Ray Huang** | First Year Computer Science and Engineering Major<br/>
-<img src="components/assets/bio_imgs/ray_haung.jpg" width="250">
+<img src="src/assets/bio_imgs/ray_haung.jpg" width="250">
 
 **Chandra Suresh** | First Year Computer Science Major<br/>
-<img src="components/assets/bio_imgs/chandra_suresh.jpg" width="250">
+<img src="src/assets/bio_imgs/chandra_suresh.jpg" width="250">
 
 ## Available Scripts
 
