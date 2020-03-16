@@ -9,9 +9,11 @@
 
 .logo
 {
+    float: left;
     margin-left: 2vw;
     margin-right: 2vw;
     height: 5vw;
+
 }
 
 /* #03989e; */
@@ -22,3 +24,4 @@ h3 { font-family: Cambria, Georgia, serif; font-size: 17px; font-style: normal; 
 p { font-family: Cambria, Georgia, serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 23px; }
 blockquote { font-family: Cambria, Georgia, serif; font-size: 17px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 23px; }
 pre { font-family: Cambria, Georgia, serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 23px; }
+nav { font-family: Cambria, Georgia, serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; align-items: center}

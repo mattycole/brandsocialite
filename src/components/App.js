@@ -5,9 +5,11 @@ import {
   Switch,
   Redirect,
   Route  
-} from "react-router-dom";import './App.css';
+} from "react-router-dom";
 
-import TopNav from "./nav/top.jsx"
+import './App.css';
+
+import Header from "./nav/header.jsx"
 // Connect pages
 import Home from "./pages/home.js"
 import Professional from "./pages/professional.js"
@@ -21,7 +23,7 @@ function App() {
   return (
     <React.Fragment>
       <HashRouter name="app" path="/" handler={App} basename={process.env.PUBLIC_URL}>
-        <TopNav/>
+        <Header/>
           <Switch>
             <Route path = "/pages/home.js" exact component={Home} />
             <Route path = "./pages/professional.js" exact component={Professional} />
