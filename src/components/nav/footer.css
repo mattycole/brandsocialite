@@ -1,0 +1,21 @@
+.footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    bottom: 0px;
+    height: 6vh; /*calc used to do arithmetic*/
+}
+
+.footer-image {
+    position: absolute;
+    left: 48vw; /* centered */
+    height: 100%;
+    width: auto;
+}
+
+.copyright {
+    color: #777777;
+    text-align: right;
+    padding-right: 2vh;
+    padding-top: 2vh;
+}

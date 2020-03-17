@@ -1,33 +1,37 @@
 import React, { Component } from 'react';
 import { Button, Container} from 'react-bootstrap';
 
-import Footer from '../nav/footer.jsx'
 
 import "./home.css";
-
-import Main_Pic from "../../assets/website_imgs/photos/Promotional Models/fabe-collage-a6saNGLkDeE-unsplash.jpg"
+import "./scss/button.scss";
 
 class Home extends Component { 
     render() {
       return (
           <React.Fragment>
-            <Container className="general">
-              <Button variant="light">GET STARTED</Button> {' '}
-              <img src={Main_Pic} className="pic"></img>
+            <Container className="starting">
+              <svg viewBox="45 60 400 320">
+                  <path fill="#fff" d="M 90 210 C 90 180 90 150 90 150 C 150 150 180 150 180 150 C 180 150 300 150 300 150 C 300 150 330 150 390 150 C 390 150 390 180 390 210 C 390 240 390 270 390 270 C 330 270 300 270 300 270 C 300 270 180 270 180 270 C 180 270 150 270 90 270 C 90 270 90 240 90 210" mask="url(#knockout-text)" >
+                  </path>
+                  <mask id="knockout-text">
+                    <rect width="100%" height="100%" fill="#fff" x="0" y="0" />
+                    <text x="147" y="227" fill="#000">Sign Up</text>
+                  </mask>
+              </svg>
             </Container>
+
             <Container className="info">
-              <div className="subtitle">
-                <h>On-Demand Staffing at the Click of One Button</h>
-              </div>
+              <article>
+                <h1>
+                  <span class="title-top">Pros</span> 
+                  <span class="title-middle">on</span> 
+                  <span class="title-bottom">Demand</span>
+                </h1>
+              </article>
             </Container>
-            <Container className="info">
-              <h3>How does it work?</h3>              
-              {/* IMPORT CHART */}
+            <Container className="how">
+              <h3>Insert Image/Chart for How It Works</h3>              
             </Container>
-            <Container className="info">
-              <h1>Let's Start</h1>
-            </Container>
-            <Footer/>
           </React.Fragment>
       );
     }
