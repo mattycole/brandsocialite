@@ -6,9 +6,9 @@ class Business extends Component {
     render() {
       return (
           <React.Fragment>
-            <Container className="starting">
-              <h1>test</h1>
-            </Container>
+            
+              <h1>testgi</h1>
+
  
             
           </React.Fragment>
