@@ -9,6 +9,9 @@ This repository consists of the prototype website for Socialite. Our goal is to.
 
 Color Theme: #03989e
 
+### Running on GitHub
+Tutorial: https://github.com/gitname/react-gh-pages
+
 ## Meet the Team
 ### Software Developers
 **David Deng** | First Year Computer Science Major<br/>
