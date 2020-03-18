@@ -1,0 +1,93 @@
+
+.pic
+{
+    width: 100%
+}
+
+/* Container */
+.info
+{
+    padding: 3vw;
+}
+
+.how
+{
+    border: solid 2px;
+    border-radius: 20px;
+    border-color: #03989e;
+    padding: 3vw;
+    text-align: center;
+}
+
+article {
+	margin: auto;
+	max-width: 1000px;
+	display: grid;
+	grid-template-columns: auto 1fr auto;
+	grid-gap: .5em;
+}
+
+.info h1 {
+    grid-column: 2;
+    text-align: center;
+}
+
+.info h1 span {
+	display: block;
+}
+.title-top {
+
+    font-family: 'questa-grande';
+	text-transform: uppercase;
+	font-size: 1em;
+}
+
+.title-middle {
+	transform: translateY(50%);
+	background: white;
+    width: 4em;
+    height: 1em;
+    margin: auto;
+
+    font-family: 'brandon-grotesque';
+	text-transform: uppercase;
+	font-size: 0.8em;
+}
+.title-bottom {
+    height: 1.5em;
+	border: thin solid black;
+	border-width: thin 0;
+    padding: 0.5em 0 0;
+    
+    font-family: 'ltc-bodoni-175';
+	text-transform: uppercase;
+	font-size: 2em;
+}
+
+@media only screen and (min-width:750px) {
+	/* Layout */
+	html, body { padding: 30px 0; }
+	article {
+		grid-template-columns: 1fr 3fr 1fr;
+		grid-gap: 1.5em;
+	}
+	main {
+		margin: 0;
+	}
+	aside {
+		grid-column: 1;
+		grid-row: 4;
+		margin-top: 7em;
+	}
+	/* Title */
+	.focusing {
+		font-size: 2.2em;
+		margin-bottom: -15px;
+	}
+	.the {
+		font-size: 0.75em;
+	}
+	.heart {
+		font-size: 4em;
+	}
+}

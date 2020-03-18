@@ -1,4 +1,27 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## For Dev
+Node Version: 13.11.0 (Latest version as of 03/14/2020)
+Please use nvm and set the node version! [How?](https://docs.google.com/document/d/1MTrKA_wmimyGPi22mjOnmANXA7dDTP7Ld1qmDjFvh9k/edit?usp=sharing)
+
+How to run React [locally](https://docs.google.com/document/d/1_R6Y2-b0MOct-ff1CEW1j4QDdLpTALYhh9R7zgDt7rI/edit?usp=sharing)?
+
+## Socialite
+This repository consists of the prototype website for Socialite. Our goal is to...
+
+Color Theme: #03989e
+
+### Running on GitHub
+Tutorial: https://github.com/gitname/react-gh-pages
+
+## Meet the Team
+### Software Developers
+**David Deng** | First Year Computer Science Major<br/>
+<img src="/src/assets/bio_imgs/david_deng.jpg" width="250">
+
+**Ray Huang** | First Year Computer Science and Engineering Major<br/>
+<img src="/src/assets/bio_imgs/ray_huang.jpg" width="250">
+
+**Chandra Suresh** | First Year Computer Science Major<br/>
+<img src="/src/assets/bio_imgs/chandra_suresh.jpg" width="250">
 
 ## Available Scripts
 
