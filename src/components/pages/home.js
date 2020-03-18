@@ -23,7 +23,7 @@ class Home extends Component {
             <Container className="info">
               <article>
                 <h1>
-                  <span class="title-top">Pros</span> 
+                  <span class="title-top">Test</span> 
                   <span class="title-middle">on</span> 
                   <span class="title-bottom">Demand</span>
                 </h1>
