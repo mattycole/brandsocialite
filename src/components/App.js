@@ -13,6 +13,7 @@ import './App.css';
 import Home from "./pages/home.js"
 import Professional from "./pages/professional.js"
 import Business from "./pages/business.js"
+import Login from "./pages/login.js"
 
 //import SignUp from "./account/signin.js"
 //import SignIn from "./account/sinup.js"
@@ -29,6 +30,7 @@ function App() {
             <Route path = "/pages/home.js" exact component={Home} />
             <Route path = "./pages/professional.js" exact component={Professional} />
             <Route path = "/pages/business.js" exact component={Business} />
+            <Route path = "/pages/login.js" exact component={Login} />
            </Switch>
         <Redirect from="/" exact to="/pages/home.js" />
       </HashRouter>
