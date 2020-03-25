@@ -1,24 +1,15 @@
-Top Bar
-
 .top_bar {
     background-color: #ffffff;
 
     width: auto;
-    height: 5vw;
-}
-
-.logo
-{
-    float: left;
-    margin-left: 2vw;
-    margin-right: 2vw;
-    height: 5vw;
-
+    height: 5vh;
 }
 
 /* #03989e; */
 
 .menu {
+    margin-top: 0;
+
     background-color: white;
     box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.15);
     border-radius: 8px;
@@ -78,7 +69,7 @@ Top Bar
 .menu_logo {
     display: inline-block;
     height: 100%;
-    width: 92px;
+    width: auto;
     background-size: cover 100%;
     background-repeat: no-repeat;
     background-position: center;

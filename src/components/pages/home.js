@@ -1,15 +1,20 @@
 import React, { Component } from 'react';
 import { Button, Container} from 'react-bootstrap';
 
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import "./home.css";
-import "./scss/button.scss";
+// import "./scss/button.scss";
+
+import pic1 from "../../assets/website_imgs/photos/home/bartender.jpg"
+import pic2 from "../../assets/website_imgs/photos/home/photographer.jpg"
 
 class Home extends Component { 
     render() {
       return (
           <React.Fragment>
-            <Container className="starting">
+            {/* <Container className="starting">
               <svg viewBox="45 60 400 320">
                   <path fill="#fff" d="M 90 210 C 90 180 90 150 90 150 C 150 150 180 150 180 150 C 180 150 300 150 300 150 C 300 150 330 150 390 150 C 390 150 390 180 390 210 C 390 240 390 270 390 270 C 330 270 300 270 300 270 C 300 270 180 270 180 270 C 180 270 150 270 90 270 C 90 270 90 240 90 210" mask="url(#knockout-text)" >
                   </path>
@@ -18,6 +23,18 @@ class Home extends Component {
                     <text x="147" y="227" fill="#000">Sign Up</text>
                   </mask>
               </svg>
+            </Container> */}
+            <Container className="carousel">
+              <Carousel infiniteLoop autoPlay>
+                  <div>
+                      <img src={pic1}/>
+                      <p className="legend">Legend 1</p>
+                  </div>
+                  <div>
+                      <img src={pic2}/>
+                      <p className="legend">Legend 2</p>
+                  </div>
+              </Carousel>
             </Container>
 
             <Container className="info">

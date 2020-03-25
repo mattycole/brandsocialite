@@ -9,11 +9,11 @@ import Navbar from 'react-bootstrap/Navbar'
 
 import "./footer.css";
 
-import Logo from "../../assets/website_imgs/logo.PNG"
+import NoBackgroundLogo from "../../assets/website_imgs/socialite_logo_no_background.png"
 
 import Home from "../pages/home.js"
-import Professional from "../pages/professional.js"
-import Business from "../pages/business.js"
+import Professional from "../pages/talent.js"
+import Business from "../pages/brands.js"
 
 class Footer extends Component { 
     render() {
@@ -22,7 +22,7 @@ class Footer extends Component {
         <a href="https://github.com/ray-cj-huang/socialite_website" target="_blank" rel="noopener noreferrer">
           <img
             className="footer-image"
-            src={Logo}
+            src={NoBackgroundLogo}
             alt="Socialite"
           />
         </a>
