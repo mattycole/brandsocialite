@@ -4,35 +4,59 @@ import { Button, Container} from 'react-bootstrap';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-import "./home.css";
-// import "./scss/button.scss";
+import { faUserCircle, faScroll, faPen } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import pic1 from "../../assets/website_imgs/photos/home/bartender.jpg"
-import pic2 from "../../assets/website_imgs/photos/home/photographer.jpg"
+import "./home.css";
+import "./button.scss";
+
+import Talent from "../../assets/website_imgs/photos/home/talent.jpg"
+import Bartender from "../../assets/website_imgs/photos/home/bartender.jpg"
+import Photographer from "../../assets/website_imgs/photos/home/photographer_old.jpg"
+import Sommelier from "../../assets/website_imgs/photos/home/sommelier.jpg"
+import EventProducer from "../../assets/website_imgs/photos/home/event.jpg"
 
 class Home extends Component { 
     render() {
       return (
           <React.Fragment>
-            {/* <Container className="starting">
-              <svg viewBox="45 60 400 320">
-                  <path fill="#fff" d="M 90 210 C 90 180 90 150 90 150 C 150 150 180 150 180 150 C 180 150 300 150 300 150 C 300 150 330 150 390 150 C 390 150 390 180 390 210 C 390 240 390 270 390 270 C 330 270 300 270 300 270 C 300 270 180 270 180 270 C 180 270 150 270 90 270 C 90 270 90 240 90 210" mask="url(#knockout-text)" >
-                  </path>
-                  <mask id="knockout-text">
-                    <rect width="100%" height="100%" fill="#fff" x="0" y="0" />
-                    <text x="147" y="227" fill="#000">Sign Up</text>
-                  </mask>
-              </svg>
-            </Container> */}
-            <Container className="carousel">
-              <Carousel infiniteLoop autoPlay>
+            <Container >
+              <Carousel infiniteLoop autoPlay interval={8000} stopOnHover={false} showThumbs={false}>
                   <div>
-                      <img src={pic1}/>
-                      <p className="legend">Legend 1</p>
+                      <img src={Talent}/>
+                      <div className="legend">
+                        <h1>TALENT ON DEMAND</h1>
+                        <a href="https://www.google.com/forms/about/" class="brk-btn">
+                            Request Talent
+                        </a>
+                        <p className ="carousel_talent_text">For Event Mangers, Hotels, Event Venues, Catering
+                          <br></br>
+                        Companies, and Experiential Marketing Agencies</p>
+                      </div>
                   </div>
                   <div>
-                      <img src={pic2}/>
-                      <p className="legend">Legend 2</p>
+                      <img src={Bartender}/>
+                      <div className="legend">
+                        <h1>BARTENDERS &amp; MIXOLOGISTS</h1>
+                      </div>
+                  </div>
+                  <div>
+                      <img src={Sommelier}/>
+                      <div className="legend">
+                        <h1>SOMMELIERS</h1>
+                      </div>
+                  </div>
+                  <div>
+                      <img src={Photographer}/>
+                      <div className="legend">
+                        <h1>PHOTOGRAPHERS &amp; VIDEOGRAPHERS</h1>
+                      </div>
+                  </div>
+                  <div>
+                      <img src={EventProducer}/>
+                      <div className="legend">
+                        <h1>EVENT PRODUCERS</h1>
+                      </div>
                   </div>
               </Carousel>
             </Container>
@@ -40,14 +64,48 @@ class Home extends Component {
             <Container className="info">
               <article>
                 <h1>
-                  <span class="title-top">Pros</span> 
-                  <span class="title-middle">on</span> 
-                  <span class="title-bottom">Demand</span>
+                  <span class="title-top">Our</span> 
+                  <span class="title-bottom">Mission</span>
                 </h1>
               </article>
+              <div className="mission">
+                <p>
+                  We endeavor to match expert talent with iconic brands through our seamless technology platform – offering a truly curated experience to our brand partners.
+                </p>
+              </div>
             </Container>
+
             <Container className="how">
-              <h3>Insert Image/Chart for How It Works</h3>              
+              <div className="header">
+                <h1>
+                  Process
+                </h1>
+              </div>
+              <div className="process">
+                <div className="row">
+                  <div className="column">
+                    <p>Make</p> 
+                    <FontAwesomeIcon icon={faUserCircle} size="10x"/> 
+                    <p className="icon_text">
+                      Make an account to verify your identity.
+                    </p>                 
+                  </div>
+                  <div className="column">
+                    <p>Fill</p>
+                    <FontAwesomeIcon icon={faPen} size="10x"/>
+                    <p className="icon_text">
+                      Fill out minimal information that are securely stored in our database to match each event with the best talents.
+                    </p>                   
+                  </div>
+                  <div className="column">
+                    <p>Pick</p>
+                    <FontAwesomeIcon icon={faScroll} size="10x"/>  
+                    <p className="icon_text">
+                      Pick the best combination of talents in less than 12 hours for the grandiose event!  
+                    </p>                 
+                  </div>
+                </div>
+              </div>
             </Container>
           </React.Fragment>
       );

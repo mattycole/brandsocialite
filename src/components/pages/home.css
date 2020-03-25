@@ -1,6 +1,8 @@
+/* Carousel */
 .carousel
 {
 	position: relative;
+	width: 100%;
 }
 
 .pic
@@ -8,19 +10,62 @@
     width: 100%
 }
 
-/* Container */
-.info
-{
-    padding: 3vw;
+.carousel .slide .legend {
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	bottom: auto;
+	margin-left: -45%;
+	width: 90%;
+	border-radius: 10px;
+	background-color: rgba(3, 152, 158, 0.3);
+	color: #fff;
+	padding: 10px;
+	opacity: 0.25;
+	-webkit-transition: opacity 0.35s ease-in-out;
+	-moz-transition: opacity 0.35s ease-in-out;
+	-ms-transition: opacity 0.35s ease-in-out;
+	-o-transition: opacity 0.35s ease-in-out;
+	transition: opacity 0.35s ease-in-out;
 }
 
+.carousel_talent_text
+{
+	position: relative;
+	margin-right: 40%;
+	text-align: right;
+}
+
+h1
+{
+	font-size: 5em;
+	letter-spacing: 0.2em;
+}
+
+p
+{
+	font-size: 2.5em;
+}
+
+/* Button */
+
+/* Container */
 .how
 {
-    border: solid 2px;
-    border-radius: 20px;
-    border-color: #03989e;
-    padding: 3vw;
-    text-align: center;
+	position: relative;
+	width: 100%;
+	height: 100%;
+
+	margin-top: 5em;
+
+	background: 
+	linear-gradient(white, transparent, white),
+	url("../../assets/website_imgs/background.png")
 }
 
 article {
@@ -31,6 +76,7 @@ article {
 	grid-gap: .5em;
 }
 
+
 .info h1 {
     grid-column: 2;
     text-align: center;
@@ -39,14 +85,8 @@ article {
 .info h1 span {
 	display: block;
 }
+
 .title-top {
-
-    font-family: 'questa-grande';
-	text-transform: uppercase;
-	font-size: 1em;
-}
-
-.title-middle {
 	transform: translateY(50%);
 	background: white;
     width: 4em;
@@ -65,6 +105,47 @@ article {
     
     font-family: 'ltc-bodoni-175';
 	text-transform: uppercase;
+	font-size: 1.5em;
+}
+
+.mission
+{
+	text-indent: 4em;
+	position: relative;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.header
+{
+	margin-top: 5em;
+	text-align: center;
+}
+
+.process
+{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.row:after
+{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.column
+{
+	float: left;
+	width: 26.6%;
+	text-align: center;
+	padding: 3.3%;
+}
+
+.icon_text
+{
+	text-indent: 0;
 	font-size: 2em;
 }
 
