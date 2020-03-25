@@ -1,0 +1,32 @@
+.beginning
+{
+    margin-top: 5em;
+}
+
+.talent_header
+{
+    position: relative;
+    padding-top: 30%;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.text
+{
+    text-indent: 4em;
+	position: relative;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.imageContainer 
+{
+    position: relative;
+    width: 25%;
+    padding-bottom: 25%;
+    float: left;
+    height: 0;
+
+    margin-left: 20%;
+}

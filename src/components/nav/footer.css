@@ -19,3 +19,15 @@
     padding-right: 2vh;
     padding-top: 2vh;
 }
+
+.social_media_icons
+{
+    float: left;
+    margin-left: 1%;
+}
+
+/* @media only screen and (max-width:750px) {
+    .footer-image {
+        display: none;
+    }
+} */

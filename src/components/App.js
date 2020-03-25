@@ -7,34 +7,32 @@ import {
   Route  
 } from "react-router-dom";
 
-import './App.css';
+import "./App.css";
 
 // Connect pages
 import Home from "./pages/home.js"
-import Professional from "./pages/professional.js"
-import Business from "./pages/business.js"
+import Talent from "./pages/talent/talent.js"
+import Brands from "./pages/brands.js"
 import Login from "./pages/login.js"
-
-//import SignUp from "./account/signin.js"
-//import SignIn from "./account/sinup.js"
 
 import NavBar from './nav/navbar.jsx'
 import Footer from './nav/footer.jsx'
 
+import pic1 from "../assets/website_imgs/photos/home/bartender.jpg"
+
 function App() {
   return (
     <React.Fragment>
-      <HashRouter name="app" path="/" handler={App} basename={process.env.PUBLIC_URL}>
-          <NavBar/>
+      <HashRouter name="socialite" path="/" handler={App} basename={process.env.PUBLIC_URL}>
+        <NavBar/>
           <Switch>
-            <Route path = "/pages/home.js" exact component={Home} />
-            <Route path = "./pages/professional.js" exact component={Professional} />
-            <Route path = "/pages/business.js" exact component={Business} />
-            <Route path = "/pages/login.js" exact component={Login} />
-           </Switch>
-        <Redirect from="/" exact to="/pages/home.js" />
+          <Route path = "/" exact component={Home} />
+          <Route path = "/talent" exact component={Talent} />
+          <Route path = "/brands" exact component={Brands} />
+          <Route path = "/login" exact component={Login} />
+          </Switch>
+        <Footer/>
       </HashRouter>
-      <Footer/>
     </React.Fragment>
   );
 }
