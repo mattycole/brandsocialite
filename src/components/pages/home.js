@@ -12,7 +12,7 @@ import "./button.scss";
 
 import Talent from "../../assets/website_imgs/photos/home/talent.jpg"
 import Bartender from "../../assets/website_imgs/photos/home/bartender.jpg"
-import Photographer from "../../assets/website_imgs/photos/home/photographer_old.jpg"
+import Photographer from "../../assets/website_imgs/photos/home/photographer.jpg"
 import Sommelier from "../../assets/website_imgs/photos/home/sommelier.jpg"
 import EventProducer from "../../assets/website_imgs/photos/home/event.jpg"
 
