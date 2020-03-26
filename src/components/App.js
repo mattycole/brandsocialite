@@ -18,8 +18,6 @@ import Login from "./pages/login.js"
 import NavBar from './nav/navbar.jsx'
 import Footer from './nav/footer.jsx'
 
-import pic1 from "../assets/website_imgs/photos/home/bartender.jpg"
-
 function App() {
   return (
     <React.Fragment>
