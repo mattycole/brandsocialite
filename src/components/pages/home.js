@@ -7,7 +7,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { faUserCircle, faScroll, faPen } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import "./home.css";
+import "./new_home.css";
 import "./button.scss";
 
 import Talent from "../../assets/website_imgs/photos/home/talent.jpg"
@@ -21,7 +21,8 @@ class Home extends Component {
       return (
           <React.Fragment>
             <Container >
-              <Carousel infiniteLoop autoPlay interval={8000} stopOnHover={false} showThumbs={false}>
+              <Carousel>
+              {/* <Carousel infiniteLoop autoPlay interval={8000} stopOnHover={false} showThumbs={false}> */}
                   <div>
                       <img src={Talent}/>
                       <div className="legend">
@@ -29,9 +30,9 @@ class Home extends Component {
                         <a href="https://www.google.com/forms/about/" class="brk-btn">
                             Request Talent
                         </a>
-                        <p className ="carousel_talent_text">For Event Mangers, Hotels, Event Venues, Catering
-                          <br></br>
-                        Companies, and Experiential Marketing Agencies</p>
+                        <p className ="carousel_talent_text">For Event Mangers, Hotels, Event Venues, Catering Companies, and Experiential Marketing Agencies</p>
+                          {/* <br></br>
+                        Companies, and Experiential Marketing Agencies</p> */}
                       </div>
                   </div>
                   <div>
@@ -84,10 +85,10 @@ class Home extends Component {
               <div className="process">
                 <div className="row">
                   <div className="column">
-                    <p>Make</p> 
+                    <p>Create</p> 
                     <FontAwesomeIcon icon={faUserCircle} size="10x"/> 
                     <p className="icon_text">
-                      Make an account to verify your identity.
+                      Create an account to verify your identity.
                     </p>                 
                   </div>
                   <div className="column">
