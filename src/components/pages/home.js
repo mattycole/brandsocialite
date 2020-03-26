@@ -41,7 +41,9 @@ class Home extends Component {
                   <div>
                       <img src={Sommelier}/>
                       <div className="legend">
-                        <h1>SOMMELIERS</h1>
+                        <div className="sommlier">
+                          <h1>SOMMELIERS</h1>
+                        </div>
                       </div>
                   </div>
                   <div>
