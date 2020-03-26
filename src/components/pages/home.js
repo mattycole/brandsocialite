@@ -21,8 +21,7 @@ class Home extends Component {
       return (
           <React.Fragment>
             <Container >
-              <Carousel>
-              {/* <Carousel infiniteLoop autoPlay interval={8000} stopOnHover={false} showThumbs={false}> */}
+              <Carousel infiniteLoop autoPlay interval={8000} stopOnHover={false} showThumbs={false}>
                   <div>
                       <img src={Talent}/>
                       <div className="legend">
