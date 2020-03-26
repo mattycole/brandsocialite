@@ -55,13 +55,13 @@
 
 h1
 {
-	font-size: 5em;
+	font-size: 3.9vw;
 	letter-spacing: 0.2em;
 }
 
 p
 {
-	font-size: 2.5em;
+	font-size: 2.3vw;
 }
 
 /* Button */
@@ -122,15 +122,15 @@ article {
 
 .mission
 {
-	text-indent: 4em;
+	text-indent: 3vw;
 	position: relative;
-	margin-left: 20%;
-	margin-right: 20%;
+	margin-left: 17%;
+	margin-right: 17%;
 }
 
 .header
 {
-	margin-top: 5em;
+	margin-top: 5vw;
 	text-align: center;
 }
 
