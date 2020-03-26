@@ -29,7 +29,7 @@ class Footer extends Component {
         </a>
         <div className="copyright">
           <h>
-          © {new Date().getFullYear()}, Socialite
+          © {new Date().getFullYear()}, Brand Socialite Inc.
           </h>
         </div>
       </footer>

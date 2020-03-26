@@ -23,8 +23,9 @@
 	margin-left: 13%;
 	width: 35%;
 	border-radius: 10px;
-    background-color: rgba(3, 152, 158, 0.3);
-    background: linear-gradient(to right, transparent, #03989e);
+	background-color: transparent;
+    /* background-color: rgba(3, 152, 158, 0.3);
+    background: linear-gradient(to right, transparent, #03989e); */
 	color: #fff;
 	padding: 10px;
 	opacity: 0.25;
@@ -44,6 +45,12 @@
     margin-top: 2em;
 	/* margin-right: 40%;
 	text-align: right; */
+}
+
+.sommlier
+{
+	position: relative;
+	padding-top: 7%;
 }
 
 h1

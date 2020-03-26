@@ -12,7 +12,7 @@ import "./button.scss";
 
 import Talent from "../../assets/website_imgs/photos/home/talent.jpg"
 import Bartender from "../../assets/website_imgs/photos/home/bartender.jpg"
-import Photographer from "../../assets/website_imgs/photos/home/photographer.jpg"
+import Photographer from "../../assets/website_imgs/photos/home/photographer_old.jpg"
 import Sommelier from "../../assets/website_imgs/photos/home/sommelier.jpg"
 import EventProducer from "../../assets/website_imgs/photos/home/event.jpg"
 
@@ -21,8 +21,7 @@ class Home extends Component {
       return (
           <React.Fragment>
             <Container >
-              <Carousel>
-              {/* <Carousel infiniteLoop autoPlay interval={8000} stopOnHover={false} showThumbs={false}> */}
+              <Carousel infiniteLoop autoPlay interval={8000} stopOnHover={false} showThumbs={false} showStatus={false}>
                   <div>
                       <img src={Talent}/>
                       <div className="legend">
@@ -31,8 +30,6 @@ class Home extends Component {
                             Request Talent
                         </a>
                         <p className ="carousel_talent_text">For Event Mangers, Hotels, Event Venues, Catering Companies, and Experiential Marketing Agencies</p>
-                          {/* <br></br>
-                        Companies, and Experiential Marketing Agencies</p> */}
                       </div>
                   </div>
                   <div>
@@ -44,7 +41,9 @@ class Home extends Component {
                   <div>
                       <img src={Sommelier}/>
                       <div className="legend">
-                        <h1>SOMMELIERS</h1>
+                        <div className="sommlier">
+                          <h1>SOMMELIERS</h1>
+                        </div>
                       </div>
                   </div>
                   <div>

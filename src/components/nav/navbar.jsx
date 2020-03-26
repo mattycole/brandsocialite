@@ -9,7 +9,7 @@ import Navbar from 'react-bootstrap/Navbar'
 
 import "./navbar.css";
 
-import NavLogo from "../../assets/website_imgs/flat_logo.PNG"
+import NavLogo from "../../assets/website_imgs/nav_bar_logo.PNG"
 
 class NavBar extends Component { 
     render() {
@@ -17,8 +17,6 @@ class NavBar extends Component {
         <div>
         <nav class="menu">
             <img src={NavLogo} className="menu_logo"></img>
-
-
             <div class="menu__right">
                 <ul class="menu__list">
                     <li class="menu__list-item"><a class="menu__link menu__link--active" href="#">Home</a></li>
