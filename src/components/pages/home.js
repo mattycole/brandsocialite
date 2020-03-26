@@ -30,8 +30,6 @@ class Home extends Component {
                             Request Talent
                         </a>
                         <p className ="carousel_talent_text">For Event Mangers, Hotels, Event Venues, Catering Companies, and Experiential Marketing Agencies</p>
-                          {/* <br></br>
-                        Companies, and Experiential Marketing Agencies</p> */}
                       </div>
                   </div>
                   <div>
