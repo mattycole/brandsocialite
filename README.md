@@ -14,6 +14,9 @@ Tutorial: https://github.com/gitname/react-gh-pages
 
 ## Meet the Team
 ### Software Developers
+**Dorian Jimenez** | First Year Electrical Engineering Major<br/>
+<img src="/src/assets/bio_imgs/dorian_jimenez.jpeg" width="250">
+
 **David Deng** | First Year Computer Science Major<br/>
 <img src="/src/assets/bio_imgs/david_deng.jpg" width="250">
 
