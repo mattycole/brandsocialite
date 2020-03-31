@@ -10,9 +10,6 @@ class Talent extends Component {
       return (
           <React.Fragment>
               <Container className="beginning">
-              <div class="imageContainer">
-                <div class="glass glass--1"></div>
-              </div>    
               <h4 class="wordCarousel">    
                 <div> 
                     <ul class="flip3"> 
@@ -22,7 +19,10 @@ class Talent extends Component {
                         <li>Awesome</li>  
                     </ul>
                 </div>  
-              </h4>      
+              </h4>  
+              <div class="imageContainer">
+                <div class="glass glass--1"></div>
+              </div>      
               <div className="talent_header">
                 <h1>
                   Our Promise
