@@ -65,7 +65,7 @@ class Home extends Component {
                       <img src={EventProducer}/>
                       <div className="legend">
                         <h1>EVENT PRODUCERS</h1>
-                        <a href="https://www.google.com/forms/about/" class="brk-btn eve">
+                        <a href="https://www.google.com/forms/about/" class="brk-btn eve eve-but">
                             Request Talent
                         </a>
                       </div>

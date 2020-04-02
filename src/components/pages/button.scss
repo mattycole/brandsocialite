@@ -58,6 +58,15 @@
     }
   }  
 
+  .eve-but {
+    &::before {
+      background: aliceblue !important;
+    }
+    &::after {
+      background: aliceblue !important;
+    }
+  }
+
   .bart
   {
     color: burlywood !important;
@@ -78,6 +87,6 @@
 
   .eve
   {
-    color: greenyellow !important;
-    border: 0.2em solid greenyellow !important;
+    color: DarkSlateGrey !important;
+    border: 0.2em solid DarkSlateGrey !important;
   }
