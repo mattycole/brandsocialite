@@ -1,11 +1,4 @@
 import React, { Component } from 'react';
-import { Row, Container } from "reactstrap";
-
-//import { Navbar } from 'react-bootstrap';
-import { Link } from "react-router-dom";
-
-import Navbar from 'react-bootstrap/Navbar'
-
 
 import "./navbar.css";
 
@@ -15,18 +8,18 @@ class NavBar extends Component {
     render() {
       return (
         <div>
-        <nav class="menu">
-            <img src={NavLogo} className="menu_logo"></img>
-            <div class="menu__right">
-                <ul class="menu__list">
-                    <li class="menu__list-item"><a class="menu__link menu__link--active" href="#">Home</a></li>
-                    <li class="menu__list-item"><a class="menu__link" href="#/talent">Talent</a></li>
-                    <li class="menu__list-item"><a class="menu__link" href="#/brands">Brands</a></li>
-                    <li class="menu__list-item"><a class="menu__link" href="#/login">Login</a></li>
-                </ul>
-            </div>
-        </nav>
-    </div>
+          <nav class="menu">
+              <img src={NavLogo} className="menu_logo"></img>
+              <div class="menu__right">
+                  <ul class="menu__list">
+                      <li class="menu__list-item"><a class="menu__link menu__link--active" href="#">Home</a></li>
+                      <li class="menu__list-item"><a class="menu__link" href="#/talent">Talent</a></li>
+                      <li class="menu__list-item"><a class="menu__link" href="#/brands">Brands</a></li>
+                      <li class="menu__list-item"><a class="menu__link" href="#/login">Login</a></li>
+                  </ul>
+              </div>
+          </nav>
+        </div>
       );
     }
   }
