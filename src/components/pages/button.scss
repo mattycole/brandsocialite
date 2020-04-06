@@ -12,11 +12,9 @@
       transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
     }
   }
-  
+
   .brk-btn {
     font-size: 2.1em;
-    // margin-right: 20%;
-    // margin-left: -30em;
     position: relative;
     background: none;
     color: aqua;
@@ -59,3 +57,36 @@
       }
     }
   }  
+
+  .eve-but {
+    &::before {
+      background: aliceblue !important;
+    }
+    &::after {
+      background: aliceblue !important;
+    }
+  }
+
+  .bart
+  {
+    color: burlywood !important;
+    border: 0.2em solid burlywood !important;
+  }
+
+  .somm
+  {
+    color: darkgoldenrod !important;
+    border: 0.2em solid darkgoldenrod !important;
+  }
+
+  .pho
+  {
+    color: BlanchedAlmond !important;
+    border: 0.2em solid BlanchedAlmond !important;
+  }
+
+  .eve
+  {
+    color: DarkSlateGrey !important;
+    border: 0.2em solid DarkSlateGrey !important;
+  }

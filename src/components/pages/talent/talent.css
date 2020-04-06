@@ -6,7 +6,7 @@
 .talent_header
 {
     position: relative;
-    padding-top: 30%;
+    padding-top: 5vw;
     text-align: center;
     width: 100%;
     height: auto;
@@ -23,10 +23,15 @@
 .imageContainer 
 {
     position: relative;
-    width: 25%;
-    padding-bottom: 25%;
-    float: left;
-    height: 0;
+    width: 40vw;
+    height: 40vw;
+    margin-left: 4vw;
+}
 
-    margin-left: 20%;
+@media only screen and (max-width:1150px) 
+{
+    .imageContainer
+    {
+        display: none;
+    }
 }
