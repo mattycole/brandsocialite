@@ -12,20 +12,6 @@ Color Theme: #03989e
 ### Running on GitHub
 Tutorial: https://github.com/gitname/react-gh-pages
 
-## Meet the Team
-### Software Developers
-**Dorian Jimenez** | First Year Electrical Engineering Major<br/>
-<img src="/src/assets/bio_imgs/dorian_jimenez.jpeg" width="250">
-
-**David Deng** | First Year Computer Science Major<br/>
-<img src="/src/assets/bio_imgs/david_deng.jpg" width="250">
-
-**Ray Huang** | First Year Computer Science and Engineering Major<br/>
-<img src="/src/assets/bio_imgs/ray_huang.jpg" width="250">
-
-**Chandra Suresh** | First Year Computer Science Major<br/>
-<img src="/src/assets/bio_imgs/chandra_suresh.jpg" width="250">
-
 ## Available Scripts
 
 In the project directory, you can run:
