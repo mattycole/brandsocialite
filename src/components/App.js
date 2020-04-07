@@ -10,12 +10,13 @@ import {
 import "./App.css";
 
 // Connect pages
-import Home from "./pages/home.js"
+import Home from "./pages/home/home.js"
 import Talent from "./pages/talent/talent.js"
-import Brands from "./pages/brands.js"
+import Brands from "./pages/brands/brands.js"
+import Create from "./pages/create.js"
 import Login from "./pages/login.js"
 
-import NavBar from './nav/navbar.jsx'
+import NavBar from './nav/new_navbar.jsx'
 import Footer from './nav/footer.jsx'
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           <Route path = "/" exact component={Home} />
           <Route path = "/talent" exact component={Talent} />
           <Route path = "/brands" exact component={Brands} />
+          <Route path = "/create" exact component={Create} />
           <Route path = "/login" exact component={Login} />
           </Switch>
         <Footer/>

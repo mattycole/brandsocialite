@@ -15,6 +15,7 @@ class NavBar extends Component {
                       <li class="menu__list-item"><a class="menu__link menu__link--active" href="#">Home</a></li>
                       <li class="menu__list-item"><a class="menu__link" href="#/talent">Talent</a></li>
                       <li class="menu__list-item"><a class="menu__link" href="#/brands">Brands</a></li>
+                      <li class="menu__list-item"><a class="menu__link" href="#/create">Join Socialite</a></li>
                       <li class="menu__list-item"><a class="menu__link" href="#/login">Login</a></li>
                   </ul>
               </div>

@@ -77,7 +77,7 @@ p
 
 	background: 
 	linear-gradient(white, transparent, white),
-	url("../../assets/website_imgs/background.png")
+	url("../../../assets/website_imgs/background.png")
 }
 
 article {
@@ -168,6 +168,13 @@ article {
 	font-size: 2em;
 }
 
+.icons
+{
+	position: relative;
+	margin: auto;
+	font-size: 10vw;
+}
+
 @media only screen and (min-width:750px) {
 	/* Layout */
 	article {
@@ -192,5 +199,13 @@ article {
 	}
 	.heart {
 		font-size: 4em;
+	}
+}
+
+@media only screen and (max-width:600px)
+{
+	.icon_text
+	{
+		font-size: 1.5em;
 	}
 }

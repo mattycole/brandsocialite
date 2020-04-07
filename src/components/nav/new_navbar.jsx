@@ -1,51 +1,28 @@
 import React, { Component } from 'react';
-import 'materialize-css';
-import $ from 'jquery';
+import { slide as Menu } from 'react-burger-menu'
 
-import NavLogo from "../../assets/website_imgs/nav_bar_logo.PNG"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUserCircle, faUserAlt, faRing, faBuilding } from "@fortawesome/free-solid-svg-icons";
 
-class New_NavBar extends Component { 
-    render() {
-      return (
-        <div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+import "./new_navbar.css"
+import NavLogo from "../../assets/website_imgs/transparent_logo.png"
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"/>
-
-<nav>
-  <div class="nav-wrapper">
-     <a href="#" class="brand-logo">Web Zone</a>
-
-     <ul class="right hide-on-med-and-down">
-
-       <li><a href="#" class="red">Home</a></li>
-       <li><a href="#">Blog</a></li>
-       <li><a href="#">Theme</a></li>
-       <li><a href="#">About</a></li>
-       <li><a href="#">Contact</a></li>
-
-     </ul>
-  </div>
-</nav>
-<script>
-$(document).ready(function(){
-          
-          $(window).scroll(function(){
-
-            if($(window).scrollTop()>300){
-              $('nav').addClass('red');
-            }else{
-              $('nav').removeClass('red');
-            }
-
-          })
-
-     });
-
-  </script>
-        </div>
-      );
-    }
+class NavBar extends Component { 
+  showSettings (event) {
+    event.preventDefault();
   }
-  
-  export default New_NavBar;
+
+  render() {
+    return (
+      <Menu>
+        <a href="#"><img href="#" src={NavLogo} className="menu_logo"/></a>
+        <a href="#/talent" className="links"><FontAwesomeIcon icon={faRing}/><span> Talent</span></a>
+        <a href="#/brands" className="links"><FontAwesomeIcon icon={faBuilding}/><span> Brands</span></a>
+        <a href="#/create" className="links"><FontAwesomeIcon icon={faUserCircle}/><span> Join Socialite</span></a>
+        <a href="#/login" className="links"><FontAwesomeIcon icon={faUserAlt}/><span> Login</span></a>
+      </Menu>
+    );
+  }
+}
+
+export default NavBar;

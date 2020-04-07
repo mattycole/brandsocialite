@@ -90,3 +90,15 @@
     color: DarkSlateGrey !important;
     border: 0.2em solid DarkSlateGrey !important;
   }
+
+  @media only screen and (max-width:1000px) {
+    .underlined-a
+    {
+      display: none;
+    }
+
+    .brk-btn
+    {
+      display: none;
+    }
+  }
