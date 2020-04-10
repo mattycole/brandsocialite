@@ -18,10 +18,12 @@ footer {
     text-align: right;
     padding-right: 2vh;
     padding-top: 2vh;
+    width: auto;
 }
 
 .social_media_icons
 {
+    color: #03989e;
     float: left;
     margin-left: 1%;
 }

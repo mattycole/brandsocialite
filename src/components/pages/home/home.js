@@ -27,17 +27,17 @@ class Home extends Component {
                   <div>
                       <img src={Talent}/>
                       <div className="legend">
-                        <h1>TALENT ON DEMAND</h1>
+                      <h1 className="slideshow_title">TALENT ON DEMAND</h1>
                         <a href="https://www.google.com/forms/about/" class="brk-btn">
                             Request Talent
                         </a>
-                        <p className ="carousel_talent_text">For Event Mangers, Hotels, Event Venues, Catering Companies, and Experiential Marketing Agencies</p>
+                        <p className ="carousel_talent_text">For Event Mangers, <br/>Hotels, Catering Companies, and Experiential Marketing Agencies</p>
                       </div>
                   </div>
                   <div>
                       <img src={Bartender}/>
                       <div className="legend">
-                        <h1>BARTENDERS &amp; MIXOLOGISTS</h1>
+                      <h1 className="slideshow_title">BARTENDERS <br/> &amp; <br/>  MIXOLOGISTS</h1>
                         <a href="https://www.google.com/forms/about/" class="brk-btn bart">
                             Request Talent
                         </a>
@@ -46,8 +46,8 @@ class Home extends Component {
                   <div>
                       <img src={Sommelier}/>
                       <div className="legend">
-                        <div className="sommlier">
-                          <h1>SOMMELIERS</h1>
+                        <div className="down">
+                          <h1 className="slideshow_title">SOMMELIERS</h1>
                           <a href="https://www.google.com/forms/about/" class="brk-btn somm">
                             Request Talent
                         </a>
@@ -57,7 +57,7 @@ class Home extends Component {
                   <div>
                       <img src={Photographer}/>
                       <div className="legend">
-                        <h1>PHOTOGRAPHERS &amp; VIDEOGRAPHERS</h1>
+                      <h1 className="slideshow_title">PHOTOGRAPHERS <br/>  &amp; <br/>  VIDEOGRAPHERS</h1>
                         <a href="https://www.google.com/forms/about/" class="brk-btn pho">
                             Request Talent
                         </a>
@@ -66,7 +66,7 @@ class Home extends Component {
                   <div>
                       <img src={EventProducer}/>
                       <div className="legend">
-                        <h1>EVENT PRODUCERS</h1>
+                      <h1 className="slideshow_title">EVENT PRODUCERS</h1>
                         <a href="https://www.google.com/forms/about/" class="brk-btn eve eve-but">
                             Request Talent
                         </a>
@@ -76,6 +76,11 @@ class Home extends Component {
             </Container>
             <div>
               <img src={Logo} className="mobile_logo"/>
+            </div>
+            <div className="mobile_button">
+              <a href="https://www.google.com/forms/about/" class="brk-btn eve eve-but">
+                            Request Talent
+              </a>
             </div>
             <Container className="how">
               <div className="header process">

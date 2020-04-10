@@ -25,13 +25,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
               <a href="https://www.linkedin.com/company/brandsocialite" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faLinkedin} size="2x" className="social_media_icons"/> 
               </a>
-              <a href="https://github.com/ray-cj-huang/socialite_website" target="_blank" rel="noopener noreferrer">
-                <img
-                  className="footer-image"
-                  src={NavLogo}
-                  alt="Socialite"
-                />
-              </a>
               <div className="copyright">
                 <h>
                 © {new Date().getFullYear()}, Brand Socialite Inc.

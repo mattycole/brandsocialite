@@ -9,7 +9,7 @@ class Talent extends Component {
     render() {
       return (
             <Container>
-              <h4 class="wordCarousel">    
+              {/* <h4 class="wordCarousel">    
                 <div> 
                     <ul class="flip3"> 
                         <li>Exclusive Events</li>
@@ -18,10 +18,10 @@ class Talent extends Component {
                         <li>Awesome</li>  
                     </ul>
                 </div>  
-              </h4>  
-              <div class="imageContainer">
+              </h4>   */}
+              {/* <div class="imageContainer">
                 <div class="glass glass--1"></div>
-              </div>     
+              </div>      */}
               <div className="talent_header">
                 <h1>
                   Our Promise

@@ -34,6 +34,7 @@
 	-ms-transition: opacity 0.35s ease-in-out;
 	-o-transition: opacity 0.35s ease-in-out;
 	transition: opacity 0.35s ease-in-out;
+	padding-top: 8%;
 }
 
 .carousel_talent_text
@@ -59,15 +60,14 @@
 
 }
 
-.sommlier
+.slideshow_title
 {
-	position: relative;
-	padding-top: 7%;
+	color: white;
 }
 
 h1
 {
-	font-size: 3.9vw !important;
+	font-size: 4vw !important;
 	letter-spacing: 0.2em;
 	padding-bottom: 2vw;
 }
@@ -141,6 +141,15 @@ p
 	font-size: 10vw;
 }
 
+.mobile_button
+{
+	display: block !important;
+	position: relative;
+	margin-top: 5vw;
+	margin-left: 42vw;
+	margin-bottom: -4vw;
+}
+
 @media only screen and (min-width:750px) {
 	/* Layout */
 	article {
@@ -187,4 +196,10 @@ p
 	{
 		display: none;
 	}
+	/* .mobile_button
+	{
+		display: inline;
+		position: absolute;
+		top: 50%;
+	} */
 }
