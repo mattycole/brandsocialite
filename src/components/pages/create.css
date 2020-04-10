@@ -1,0 +1,31 @@
+/* temp */
+
+h1
+{
+    margin: auto;
+	font-size: 5vw;
+}
+
+.login
+{
+    padding: 10vw;
+    display: flex;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_icons
+{
+    font-size: 4vw;
+    margin-right: 3rem;
+    float: left;
+}
+
+@media only screen and (max-width:768px)
+{
+    .login_icons
+    {
+        display: none;
+    }
+}

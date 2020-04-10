@@ -1,12 +1,12 @@
 .header
 {
-	margin-top: 0;
-	text-align: center;
+    color: #03989e;
+	margin-top: 5vw;
+    text-align: center;
 }
 
 .text
 {
-    text-indent: 4em;
 	position: relative;
 	margin-left: 20%;
 	margin-right: 20%;
@@ -22,7 +22,7 @@
 
 /* title styles */
 .home-title span{
-    font-size: 0.5em;
+    font-size: 0.7em;
     position: relative;
     overflow: hidden;
     display: block;

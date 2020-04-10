@@ -77,22 +77,8 @@ class Home extends Component {
             <div>
               <img src={Logo} className="mobile_logo"/>
             </div>
-            <Container className="info">
-              <article>
-                <h1>
-                  <span class="title-top">Our</span> 
-                  <span class="title-bottom">Mission</span>
-                </h1>
-              </article>
-              <div className="mission">
-                <p>
-                  We endeavor to match expert talent with iconic brands through our seamless technology platform – offering a truly curated experience to our brand partners.
-                </p>
-              </div>
-            </Container>
-
             <Container className="how">
-              <div className="header">
+              <div className="header process">
                 <h1>
                   Process
                 </h1>

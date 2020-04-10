@@ -21,7 +21,7 @@ class Talent extends Component {
               </h4>  
               <div class="imageContainer">
                 <div class="glass glass--1"></div>
-              </div>      
+              </div>     
               <div className="talent_header">
                 <h1>
                   Our Promise

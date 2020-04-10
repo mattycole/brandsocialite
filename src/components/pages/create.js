@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import fire from './config/fire.js'
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTools } from "@fortawesome/free-solid-svg-icons";
+
 import "./create.css";
 
 class Create extends Component { 
@@ -61,4 +64,15 @@ class Create extends Component {
     }
   }
 
-  export default Create;
+  class Temp extends Component { 
+    render() {
+      return (
+          <div className="login">
+            <FontAwesomeIcon icon={faTools} className="login_icons"/>
+            <h1>Socialite in Progress</h1>
+          </div>
+      );
+    }
+  }
+
+  export default Temp;

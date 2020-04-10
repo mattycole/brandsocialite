@@ -47,7 +47,7 @@
 }
 
 .menu__link {
-    color: #3a3e47;
+    color: #03989e;
     display: inline-block;
     height: 100%;
     font-size: 1.65vw;
@@ -59,7 +59,7 @@
 }
 
 .menu__link:hover {
-    color: #03989e;
+    color: black;
 }
 
 .menu__link:active {
@@ -88,7 +88,7 @@
   
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
-    background: #fff;
+    background: #E3CF9D;
   }
   
   /* Color/shape of burger icon bars on hover*/

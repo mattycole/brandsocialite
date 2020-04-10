@@ -93,54 +93,6 @@ p
 	url("../../../assets/website_imgs/background.png")
 }
 
-article {
-	margin: auto;
-	max-width: 1000px;
-	display: grid;
-	grid-template-columns: auto 1fr auto;
-	grid-gap: .5em;
-}
-
-
-.info h1 {
-    grid-column: 2;
-    text-align: center;
-}
-
-.info h1 span {
-	display: block;
-}
-
-.title-top {
-	transform: translateY(50%);
-	background: white;
-    width: 4em;
-    height: 1em;
-    margin: auto;
-
-    font-family: 'brandon-grotesque';
-	text-transform: uppercase;
-	font-size: 0.8em;
-}
-.title-bottom {
-    height: 1.5em;
-	border: thin solid black;
-	border-width: thin 0;
-    padding: 0.5em 0 0;
-    
-    font-family: 'ltc-bodoni-175';
-	text-transform: uppercase;
-	font-size: 1.5em;
-}
-
-.mission
-{
-	text-indent: 3vw;
-	position: relative;
-	margin-left: 17%;
-	margin-right: 17%;
-}
-
 .header
 {
 	margin-top: 5vw;
@@ -151,6 +103,7 @@ article {
 {
 	margin-left: 10%;
 	margin-right: 10%;
+	color: #03989e;
 }
 
 /* .row
