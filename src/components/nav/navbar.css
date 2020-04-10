@@ -1,3 +1,4 @@
+/* Desktop */
 .top_bar {
     background-color: #ffffff;
 
@@ -16,8 +17,8 @@
     width: 100%;
     height: 10vw;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     position: relative;
 }
 
@@ -32,14 +33,13 @@
     padding: 0;
     height: 100%;
     margin: 0;
-    margin-right: 2em;
+    margin-right: s2em;
 }
 
 .menu__list-item {
-    font-size: 1.6em;
     display: inline-block;
     height: 100%;
-    margin-right: 20px;
+    padding-right: 2vw;
 }
 
 .menu__list-item:last-child {
@@ -50,7 +50,7 @@
     color: #3a3e47;
     display: inline-block;
     height: 100%;
-    font-size: 1em;
+    font-size: 1.65vw;
     text-decoration: none;
     text-transform: uppercase;
     display: flex;
@@ -69,9 +69,122 @@
 }
 
 .menu_logo {
-    display:  inline-block;
-    margin: auto;
-    margin-left: 35%;
-    height: auto;
-    width: 30%;
+    display: block;
+    /*height: 10vw -> 2.93 : 1 -> 50-29.3/2=35.35*/
+    margin-left: 35.35vw;
+    margin-right: auto;
+    height: 95%;
 }
+
+/* Mobile */
+/* Position and sizing of burger button */
+.bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    left: 36px;
+    top: 36px;
+  }
+  
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: #373a47;
+  }
+  
+  /* Color/shape of burger icon bars on hover*/
+  .bm-burger-bars-hover {
+    background: #03989e;
+  }
+  
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+  }
+  
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background: #bdc3c7;
+  }
+  
+  /*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+  .bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+  }
+  
+  /* General sidebar styles */
+  .bm-menu {
+    background: #03989e;
+    /* padding: 2.5em 1.5em 0; */
+    font-size: 1.15em;
+    overflow: hidden;
+  }
+  
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+    fill: #373a47;
+  }
+  
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: #b8b7ad;
+    padding: 0.8em;
+  }
+  
+  /* Individual item */
+  .bm-item {
+    display: inline-block;
+  }
+  
+  /* Styling of overlay */
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+  
+  .links {
+    display: inline-block;
+    margin: 0.75em;
+    padding: 1.35em 1.1em;
+    width: auto;
+    background: #fffce1;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 800;
+    border-top-left-radius: 20px 50px;
+    border-top-right-radius: 20px 50px;
+    border-bottom-right-radius: 20px 50px;
+    border-bottom-left-radius: 20px 50px;
+    cursor: pointer;
+  }
+  
+  .mobile_menu_logo
+  {
+    margin-top: 2vw;
+    width: 100%
+  }
+
+  /* Footer in Mobile */
+  footer {
+    position: relative;
+    margin-top: 33vh;
+    height: 6vh; /*calc used to do arithmetic*/
+  }
+
+  .copyright {
+
+      color: #777777;
+      float: right;
+
+      width: 5em;
+      padding-bottom: 2vh;
+  }
+
+  .social_media_icons
+  {
+    padding-top: 2vh;
+    padding-left: 1vh;
+  }

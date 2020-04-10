@@ -2,7 +2,7 @@
 .underlined-a {
     text-decoration: none;
     color: aqua;
-    padding-bottom: 0.15em;
+    // padding-bottom: 0.15em;
     box-sizing: border-box;
     box-shadow: inset 0 -0.2em 0 aqua;
     transition: 0.2s;
@@ -14,7 +14,7 @@
   }
 
   .brk-btn {
-    font-size: 2.1em;
+    font-size: 2vw;
     position: relative;
     background: none;
     color: aqua;

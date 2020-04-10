@@ -55,8 +55,9 @@
 
 h1
 {
-	font-size: 3.9vw;
+	font-size: 3.9vw !important;
 	letter-spacing: 0.2em;
+	padding-bottom: 2vw;
 }
 
 p

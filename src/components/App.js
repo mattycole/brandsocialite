@@ -16,7 +16,7 @@ import Brands from "./pages/brands/brands.js"
 import Create from "./pages/create.js"
 import Login from "./pages/login.js"
 
-import NavBar from './nav/changingNavBar.jsx'
+import NavBar from './nav/navbar.jsx'
 import Footer from './nav/footer.jsx'
 
 function App() {
