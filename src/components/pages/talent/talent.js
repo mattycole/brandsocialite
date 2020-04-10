@@ -8,8 +8,7 @@ import "./image.scss";
 class Talent extends Component { 
     render() {
       return (
-          <React.Fragment>
-              <Container className="beginning">
+            <Container>
               <h4 class="wordCarousel">    
                 <div> 
                     <ul class="flip3"> 
@@ -33,7 +32,7 @@ class Talent extends Component {
                 We are committed to match the talent on our platform with the highest paid event staffing opportunities in their local area. Our technology platform is an all-in-one solution for everything from job notifications to event updates and payments.                 </p>
               </div>
             </Container>
-          </React.Fragment>
+          
       );
     }
   }

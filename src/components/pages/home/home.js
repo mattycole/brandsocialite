@@ -7,14 +7,14 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { faUserCircle, faScroll, faPen } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import "./new_home.css";
+import "./home.css";
 import "./button.scss";
 
-import Talent from "../../assets/website_imgs/photos/home/talent.jpg"
-import Bartender from "../../assets/website_imgs/photos/home/bartender.jpg"
-import Photographer from "../../assets/website_imgs/photos/home/photographer_old.jpg"
-import Sommelier from "../../assets/website_imgs/photos/home/sommelier.jpg"
-import EventProducer from "../../assets/website_imgs/photos/home/event.jpg"
+import Talent from "../../../assets/website_imgs/photos/home/talent.jpg"
+import Bartender from "../../../assets/website_imgs/photos/home/bartender.jpg"
+import Photographer from "../../../assets/website_imgs/photos/home/photographer_old.jpg"
+import Sommelier from "../../../assets/website_imgs/photos/home/sommelier.jpg"
+import EventProducer from "../../../assets/website_imgs/photos/home/event.jpg"
 
 class Home extends Component { 
     render() {
@@ -97,21 +97,23 @@ class Home extends Component {
                 <div className="row">
                   <div className="column">
                     <p>Create</p> 
-                    <FontAwesomeIcon icon={faUserCircle} size="10x"/> 
+                    <div className="icons">
+                      <FontAwesomeIcon icon={faUserCircle}/> 
+                    </div>
                     <p className="icon_text">
                       Create an account to verify your identity.
                     </p>                 
                   </div>
                   <div className="column">
                     <p>Fill</p>
-                    <FontAwesomeIcon icon={faPen} size="10x"/>
+                    <FontAwesomeIcon icon={faPen} className="icons"/>
                     <p className="icon_text">
                       Fill out minimal information that are securely stored in our database to match each event with the best talents.
                     </p>                   
                   </div>
                   <div className="column">
                     <p>Pick</p>
-                    <FontAwesomeIcon icon={faScroll} size="10x"/>  
+                    <FontAwesomeIcon icon={faScroll} className="icons"/>  
                     <p className="icon_text">
                       Pick the best combination of talents in less than 12 hours for the grandiose event!  
                     </p>                 
