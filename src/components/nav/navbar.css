@@ -88,7 +88,7 @@
   
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
-    background: #373a47;
+    background: #fff;
   }
   
   /* Color/shape of burger icon bars on hover*/
@@ -159,6 +159,7 @@
     border-bottom-right-radius: 20px 50px;
     border-bottom-left-radius: 20px 50px;
     cursor: pointer;
+    color: #03989e;
   }
   
   .mobile_menu_logo

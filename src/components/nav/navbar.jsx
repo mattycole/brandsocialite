@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { slide as Menu } from 'react-burger-menu'
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUserCircle, faUserAlt, faRing, faBuilding } from "@fortawesome/free-solid-svg-icons";
+import { faHome, faUserCircle, faUserAlt, faRing, faBuilding } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 
 import "./navbar.css"
@@ -33,7 +33,8 @@ export default class DynamicNavBar extends Component {
         } else {
           this.state.renderComponent = (
             <Menu>
-            <a href="#"><img href="#" src={NavLogo} className="mobile_menu_logo"/></a>
+            <img href="#" src={NavLogo} className="mobile_menu_logo"/>
+            <a href="#" className="links"><FontAwesomeIcon icon={faHome}/><span> Home</span></a>
             <a href="#/talent" className="links"><FontAwesomeIcon icon={faRing}/><span> Talent</span></a>
             <a href="#/brands" className="links"><FontAwesomeIcon icon={faBuilding}/><span> Brands</span></a>
             <a href="#/create" className="links"><FontAwesomeIcon icon={faUserCircle}/><span> Join Socialite</span></a>

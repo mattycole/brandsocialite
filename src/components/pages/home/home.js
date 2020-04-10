@@ -7,6 +7,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { faUserCircle, faScroll, faPen } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+import Logo from "../../../assets/website_imgs/transparent_logo.png"
+
 import "./home.css";
 import "./button.scss";
 
@@ -72,7 +74,9 @@ class Home extends Component {
                   </div>
               </Carousel>
             </Container>
-
+            <div>
+              <img src={Logo} className="mobile_logo"/>
+            </div>
             <Container className="info">
               <article>
                 <h1>
