@@ -158,33 +158,6 @@ p
 	display: none;
 }
 
-@media only screen and (min-width:750px) {
-	/* Layout */
-	article {
-		grid-template-columns: 1fr 3fr 1fr;
-		grid-gap: 1.5em;
-	}
-	main {
-		margin: 0;
-	}
-	aside {
-		grid-column: 1;
-		grid-row: 4;
-		margin-top: 7em;
-	}
-	/* Title */
-	.focusing {
-		font-size: 2.2em;
-		margin-bottom: -15px;
-	}
-	.the {
-		font-size: 0.75em;
-	}
-	.heart {
-		font-size: 4em;
-	}
-}
-
 @media only screen and (max-width:600px)
 {
 	.icon_text
@@ -205,7 +178,7 @@ p
 		display: block !important;
 		position: relative;
 		margin-top: 10vw;
-		margin-left: 30vw;
+		margin-left: 22vw;
 	}
 
 	.icon_text
@@ -217,7 +190,7 @@ p
 	{
 		/* transform: scale(1, 1); */
 		margin-left: -22vw;
-		font-size: 7.5vw !important;
+		font-size: 5vw !important;
 	}
 	.talent
 	{
