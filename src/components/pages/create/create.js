@@ -79,7 +79,7 @@ class Create extends Component {
                 <div class="dot"></div>
                 <div class="dot"></div>
               </div>
-              <span>Join As Talents</span>
+              <span>Talents</span>
             </a>
             <a href="#/login" class="my-super-cool-btn">
               <div class="dots-container">
@@ -88,7 +88,7 @@ class Create extends Component {
                 <div class="dot"></div>
                 <div class="dot"></div>
               </div>
-              <span>Join as Brands</span>
+              <span>Brands</span>
             </a>
           </div>
       );

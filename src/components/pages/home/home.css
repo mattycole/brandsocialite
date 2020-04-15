@@ -65,10 +65,15 @@
 	color: white;
 }
 
+.shifted
+{
+	margin-left: -2vw !important;
+}
+
 h1
 {
-	transform: scale(1.2, 1);
-	font-size: 4vw !important;
+	/* transform: scale(1.2, 1); */
+	font-size: 2.7vw !important;
 	letter-spacing: 0.2em;
 	padding-bottom: 2vw;
 }
@@ -210,7 +215,7 @@ p
 
 	.slideshow_title
 	{
-		transform: scale(1, 1);
+		/* transform: scale(1, 1); */
 		margin-left: -22vw;
 		font-size: 7.5vw !important;
 	}

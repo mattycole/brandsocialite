@@ -33,7 +33,6 @@
     padding: 0;
     height: 100%;
     margin: 0;
-    margin-right: s2em;
 }
 
 .menu__list-item {
@@ -50,28 +49,29 @@
     color: #03989e;
     display: inline-block;
     height: 100%;
-    font-size: 1.65vw;
+    font-size: 1.2vw;
     text-decoration: none;
     text-transform: uppercase;
     display: flex;
     align-items: center;
     padding: 0 3px;
+    font-weight: 800;
+
 }
 
 .menu__link:hover {
-    color: black;
+    color: goldenrod;
 }
 
 .menu__link:active {
     color: #03989e;
     border-top: 4px solid #03989e;
-    font-weight: 700;
 }
 
 .menu_logo {
     display: block;
     /*height: 10vw -> 2.93 : 1 -> 50-29.3/2=35.35*/
-    margin-left: 40vw;
+    margin-left: 37vw;
     margin-right: auto;
     height: 95%;
 }

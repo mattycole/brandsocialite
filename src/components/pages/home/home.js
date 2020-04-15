@@ -55,7 +55,7 @@ class Home extends Component {
                   </div>
                   <div>
                       <img src={Photographer}/>
-                      <div className="legend">
+                      <div className="legend shifted">
                       <h1 className="slideshow_title">PHOTOGRAPHERS <br/>  &amp; <br/>  VIDEOGRAPHERS</h1>
                         <a href="#/login" class="brk-btn pho mobile_hidden">
                             Request Talent
@@ -113,8 +113,8 @@ class Home extends Component {
                     </p>                 
                   </div>
                 </div>
-                <div>
-                  <h1 className="text_center">
+                <div className="text_center">
+                  <h1>
                     Who We Are
                   </h1>
                   <p>

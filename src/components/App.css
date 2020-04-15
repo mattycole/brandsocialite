@@ -1,9 +1,11 @@
 #header {
+    font-family: Georgia;
     position: relative;
     margin: 0;
     padding-top: 0px;
 }
 
 body{
+  font-family: Georgia;
   margin:0px;
 }
