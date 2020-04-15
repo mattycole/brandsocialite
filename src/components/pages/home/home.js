@@ -30,7 +30,7 @@ class Home extends Component {
                         <a href="#/login" class="brk-btn mobile_hidden">
                             Request Talent
                         </a>
-                        <p className ="carousel_talent_text mobile_hidden">For Event Mangers, <br/>Hotels, Catering Companies, and Experiential Marketing Agencies</p>
+                        <p className ="carousel_talent_text">For Event Mangers, <br/>Hotels, Catering Companies, and Experiential Marketing Agencies</p>
                       </div>
                   </div>
                   <div>
