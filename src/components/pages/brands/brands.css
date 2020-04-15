@@ -72,3 +72,39 @@
     0% {transform: translateX(0)}
     100% {transform: translateX(200%)}
 }
+
+@media only screen and (max-width:1150px) 
+{
+    .imageContainer
+    {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:768px)
+{
+    .home-title
+    {
+        padding-top: 10vw;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 10%;
+    }
+    .home-title span{
+        font-size: 3.3rem;
+    }
+}
+
+@media only screen and (max-width:426px)
+{
+    .home-title span{
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width:320px)
+{
+    .home-title span{
+        font-size: 1.5rem;
+    }
+}

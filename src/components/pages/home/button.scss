@@ -91,13 +91,12 @@
     border: 0.2em solid DarkSlateGrey !important;
   }
 
-  @media only screen and (max-width:1000px) {
-    .underlined-a
-    {
-      display: none;
-    }
-
+  @media only screen and (max-width: 768px) {
     .brk-btn
+    {
+      font-size: 5vw;
+    }
+    .mobile_hidden
     {
       display: none;
     }

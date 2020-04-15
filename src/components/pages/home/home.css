@@ -143,11 +143,7 @@ p
 
 .mobile_button
 {
-	display: block !important;
-	position: relative;
-	margin-top: 5vw;
-	margin-left: 42vw;
-	margin-bottom: -4vw;
+	display: none;
 }
 
 @media only screen and (min-width:750px) {
@@ -192,14 +188,26 @@ p
 		display: block;
 	}
 
+	.mobile_button
+	{
+		display: block !important;
+		position: relative;
+		margin-top: 10vw;
+		margin-left: 30vw;
+	}
+
 	.icon_text
 	{
 		display: none;
 	}
-	/* .mobile_button
+
+	.slideshow_title
 	{
-		display: inline;
-		position: absolute;
-		top: 50%;
-	} */
+		margin-left: -22vw;
+		font-size: 7.5vw !important;
+	}
+	.talent
+	{
+		padding-left: 20vw;
+	}
 }

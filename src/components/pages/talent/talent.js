@@ -22,14 +22,17 @@ class Talent extends Component {
               {/* <div class="imageContainer">
                 <div class="glass glass--1"></div>
               </div>      */}
-              <div className="talent_header">
-                <h1>
-                  Our Promise
-                </h1>
-              </div>
-              <div className="text">
-                <p>
-                We are committed to match the talent on our platform with the highest paid event staffing opportunities in their local area. Our technology platform is an all-in-one solution for everything from job notifications to event updates and payments.                 </p>
+              <div className="container">
+                <div className="talent_header">
+                  <h1>
+                    Our Promise
+                  </h1>
+                </div>
+                <div className="text">
+                  <p>
+                  We are committed to match the talent on our platform with the highest paid event staffing opportunities in their local area. Our technology platform is an all-in-one solution for everything from job notifications to event updates and payments.
+                  </p>
+                </div>
               </div>
             </Container>
           

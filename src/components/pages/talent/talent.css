@@ -25,11 +25,47 @@
     height: 40vw;
     margin-left: 5vw;
 }
+.container
+{
+    height: 30vw;
+}
 
 @media only screen and (max-width:1150px) 
 {
     .imageContainer
     {
         display: none;
+    }
+}
+
+@media only screen and (max-width:768px)
+{
+    .container
+    {
+        margin-top: 50px;
+    }
+    h1
+    {
+        font-size: 3rem !important;
+    }
+    p
+    {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width:426px)
+{
+    .container
+    {
+        margin-top: 70px;
+    }
+    h1
+    {
+        font-size: 2rem !important;
+    }
+    p
+    {
+        font-size: 1.5rem;
     }
 }
