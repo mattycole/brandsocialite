@@ -71,7 +71,7 @@
 .menu_logo {
     display: block;
     /*height: 10vw -> 2.93 : 1 -> 50-29.3/2=35.35*/
-    margin-left: 35.35vw;
+    margin-left: 40vw;
     margin-right: auto;
     height: 95%;
 }

@@ -67,6 +67,7 @@
 
 h1
 {
+	transform: scale(1.2, 1);
 	font-size: 4vw !important;
 	letter-spacing: 0.2em;
 	padding-bottom: 2vw;
@@ -75,6 +76,12 @@ h1
 p
 {
 	font-size: 2.3vw;
+}
+
+
+.text_center
+{
+	text-align: center;
 }
 
 /* Button */
@@ -203,11 +210,17 @@ p
 
 	.slideshow_title
 	{
+		transform: scale(1, 1);
 		margin-left: -22vw;
 		font-size: 7.5vw !important;
 	}
 	.talent
 	{
 		padding-left: 20vw;
+	}
+
+	.text_center
+	{
+		margin-top: 10vw;
 	}
 }

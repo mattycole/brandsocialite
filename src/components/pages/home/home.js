@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Button, Container} from 'react-bootstrap';
 
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -22,13 +21,13 @@ class Home extends Component {
     render() {
       return (
           <React.Fragment>
-            <Container >
+            <div>
               <Carousel infiniteLoop autoPlay interval={8000} stopOnHover={false} showThumbs={false} showStatus={false}>
                   <div>
                       <img src={Talent}/>
                       <div className="legend">
                       <h1 className="slideshow_title talent">TALENT ON DEMAND</h1>
-                        <a href="https://www.google.com/forms/about/" class="brk-btn mobile_hidden">
+                        <a href="#/login" class="brk-btn mobile_hidden">
                             Request Talent
                         </a>
                         <p className ="carousel_talent_text mobile_hidden">For Event Mangers, <br/>Hotels, Catering Companies, and Experiential Marketing Agencies</p>
@@ -38,7 +37,7 @@ class Home extends Component {
                       <img src={Bartender}/>
                       <div className="legend">
                       <h1 className="slideshow_title">BARTENDERS <br/> &amp; <br/>  MIXOLOGISTS</h1>
-                        <a href="https://www.google.com/forms/about/" class="brk-btn bart mobile_hidden">
+                        <a href="#/login" class="brk-btn bart mobile_hidden">
                             Request Talent
                         </a>
                       </div>
@@ -48,7 +47,7 @@ class Home extends Component {
                       <div className="legend">
                         <div className="down">
                           <h1 className="slideshow_title">SOMMELIERS</h1>
-                          <a href="https://www.google.com/forms/about/" class="brk-btn somm mobile_hidden">
+                          <a href="#/login" class="brk-btn somm mobile_hidden">
                             Request Talent
                         </a>
                         </div>
@@ -58,7 +57,7 @@ class Home extends Component {
                       <img src={Photographer}/>
                       <div className="legend">
                       <h1 className="slideshow_title">PHOTOGRAPHERS <br/>  &amp; <br/>  VIDEOGRAPHERS</h1>
-                        <a href="https://www.google.com/forms/about/" class="brk-btn pho mobile_hidden">
+                        <a href="#/login" class="brk-btn pho mobile_hidden">
                             Request Talent
                         </a>
                       </div>
@@ -67,22 +66,22 @@ class Home extends Component {
                       <img src={EventProducer}/>
                       <div className="legend">
                       <h1 className="slideshow_title">EVENT PRODUCERS</h1>
-                        <a href="https://www.google.com/forms/about/" class="brk-btn eve eve-but mobile_hidden">
+                        <a href="#/login" class="brk-btn eve eve-but mobile_hidden">
                             Request Talent
                         </a>
                       </div>
                   </div>
               </Carousel>
-            </Container>
+            </div>
             <div>
               <img src={Logo} className="mobile_logo"/>
             </div>
             <div className="mobile_button">
-              <a href="https://www.google.com/forms/about/" class="brk-btn eve eve-but">
+              <a href="#/login" class="brk-btn eve eve-but">
                 Request Talent
               </a>
             </div>
-            <Container className="how">
+            <div className="how">
               <div className="header process">
                 <h1>
                   Process
@@ -114,8 +113,19 @@ class Home extends Component {
                     </p>                 
                   </div>
                 </div>
+                <div>
+                  <h1 className="text_center">
+                    Who We Are
+                  </h1>
+                  <p>
+                    Brand Socialite is an on-demand staffing platform for event managers, hotels, catering companies and experiential marketing agencies,
+                    that uses matchmaking technology to fill shifts in real-time with promotional models, bartenders, servers and photographers.
+                    Brand Socialite connects businesses with high-quality, reliable, pre-screened and professional talent who enjoy a flexible schedule
+                    while earning extra income. 
+                  </p>
+                </div>
               </div>
-            </Container>
+            </div>
           </React.Fragment>
       );
     }
