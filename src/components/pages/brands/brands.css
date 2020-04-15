@@ -1,12 +1,12 @@
 .header
 {
-	margin-top: 0;
-	text-align: center;
+    color: #03989e;
+	margin-top: 5vw;
+    text-align: center;
 }
 
 .text
 {
-    text-indent: 4em;
 	position: relative;
 	margin-left: 20%;
 	margin-right: 20%;
@@ -22,7 +22,7 @@
 
 /* title styles */
 .home-title span{
-    font-size: 0.5em;
+    font-size: 0.7em;
     position: relative;
     overflow: hidden;
     display: block;
@@ -71,4 +71,40 @@
 @keyframes a-ltr-before{
     0% {transform: translateX(0)}
     100% {transform: translateX(200%)}
+}
+
+@media only screen and (max-width:1150px) 
+{
+    .imageContainer
+    {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:768px)
+{
+    .home-title
+    {
+        padding-top: 10vw;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 10%;
+    }
+    .home-title span{
+        font-size: 3.3rem;
+    }
+}
+
+@media only screen and (max-width:426px)
+{
+    .home-title span{
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width:320px)
+{
+    .home-title span{
+        font-size: 1.5rem;
+    }
 }

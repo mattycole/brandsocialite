@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import { Button, Container} from 'react-bootstrap';
 
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import { faUserCircle, faScroll, faPen } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import Logo from "../../../assets/website_imgs/transparent_logo.png"
 
 import "./home.css";
 import "./button.scss";
@@ -20,23 +21,23 @@ class Home extends Component {
     render() {
       return (
           <React.Fragment>
-            <Container >
+            <div>
               <Carousel infiniteLoop autoPlay interval={8000} stopOnHover={false} showThumbs={false} showStatus={false}>
                   <div>
                       <img src={Talent}/>
                       <div className="legend">
-                        <h1>TALENT ON DEMAND</h1>
-                        <a href="https://www.google.com/forms/about/" class="brk-btn">
+                      <h1 className="slideshow_title talent">TALENT ON DEMAND</h1>
+                        <a href="#/login" class="brk-btn mobile_hidden">
                             Request Talent
                         </a>
-                        <p className ="carousel_talent_text">For Event Mangers, Hotels, Event Venues, Catering Companies, and Experiential Marketing Agencies</p>
+                        <p className ="carousel_talent_text mobile_hidden">For Event Mangers, <br/>Hotels, Catering Companies, and Experiential Marketing Agencies</p>
                       </div>
                   </div>
                   <div>
                       <img src={Bartender}/>
                       <div className="legend">
-                        <h1>BARTENDERS &amp; MIXOLOGISTS</h1>
-                        <a href="https://www.google.com/forms/about/" class="brk-btn bart">
+                      <h1 className="slideshow_title">BARTENDERS <br/> &amp; <br/>  MIXOLOGISTS</h1>
+                        <a href="#/login" class="brk-btn bart mobile_hidden">
                             Request Talent
                         </a>
                       </div>
@@ -44,9 +45,9 @@ class Home extends Component {
                   <div>
                       <img src={Sommelier}/>
                       <div className="legend">
-                        <div className="sommlier">
-                          <h1>SOMMELIERS</h1>
-                          <a href="https://www.google.com/forms/about/" class="brk-btn somm">
+                        <div className="down">
+                          <h1 className="slideshow_title">SOMMELIERS</h1>
+                          <a href="#/login" class="brk-btn somm mobile_hidden">
                             Request Talent
                         </a>
                         </div>
@@ -54,9 +55,9 @@ class Home extends Component {
                   </div>
                   <div>
                       <img src={Photographer}/>
-                      <div className="legend">
-                        <h1>PHOTOGRAPHERS &amp; VIDEOGRAPHERS</h1>
-                        <a href="https://www.google.com/forms/about/" class="brk-btn pho">
+                      <div className="legend shifted">
+                      <h1 className="slideshow_title">PHOTOGRAPHERS <br/>  &amp; <br/>  VIDEOGRAPHERS</h1>
+                        <a href="#/login" class="brk-btn pho mobile_hidden">
                             Request Talent
                         </a>
                       </div>
@@ -64,31 +65,24 @@ class Home extends Component {
                   <div>
                       <img src={EventProducer}/>
                       <div className="legend">
-                        <h1>EVENT PRODUCERS</h1>
-                        <a href="https://www.google.com/forms/about/" class="brk-btn eve eve-but">
+                      <h1 className="slideshow_title">EVENT PRODUCERS</h1>
+                        <a href="#/login" class="brk-btn eve eve-but mobile_hidden">
                             Request Talent
                         </a>
                       </div>
                   </div>
               </Carousel>
-            </Container>
-
-            <Container className="info">
-              <article>
-                <h1>
-                  <span class="title-top">Our</span> 
-                  <span class="title-bottom">Mission</span>
-                </h1>
-              </article>
-              <div className="mission">
-                <p>
-                  We endeavor to match expert talent with iconic brands through our seamless technology platform – offering a truly curated experience to our brand partners.
-                </p>
-              </div>
-            </Container>
-
-            <Container className="how">
-              <div className="header">
+            </div>
+            <div>
+              <img src={Logo} className="mobile_logo"/>
+            </div>
+            <div className="mobile_button">
+              <a href="#/login" class="brk-btn eve eve-but">
+                Request Talent
+              </a>
+            </div>
+            <div className="how">
+              <div className="header process">
                 <h1>
                   Process
                 </h1>
@@ -119,8 +113,19 @@ class Home extends Component {
                     </p>                 
                   </div>
                 </div>
+                <div className="text_center">
+                  <h1>
+                    Who We Are
+                  </h1>
+                  <p>
+                    Brand Socialite is an on-demand staffing platform for event managers, hotels, catering companies and experiential marketing agencies,
+                    that uses matchmaking technology to fill shifts in real-time with promotional models, bartenders, servers and photographers.
+                    Brand Socialite connects businesses with high-quality, reliable, pre-screened and professional talent who enjoy a flexible schedule
+                    while earning extra income. 
+                  </p>
+                </div>
               </div>
-            </Container>
+            </div>
           </React.Fragment>
       );
     }

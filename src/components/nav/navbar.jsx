@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { slide as Menu } from 'react-burger-menu'
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUserCircle, faUserAlt, faRing, faBuilding } from "@fortawesome/free-solid-svg-icons";
+import { faHome, faUserCircle, faUserAlt, faRing, faBuilding } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 
 import "./navbar.css"
@@ -23,7 +23,7 @@ export default class DynamicNavBar extends Component {
                             <li class="menu__list-item"><a class="menu__link menu__link--active" href="#">Home</a></li>
                             <li class="menu__list-item"><a class="menu__link" href="#/talent">Talent</a></li>
                             <li class="menu__list-item"><a class="menu__link" href="#/brands">Brands</a></li>
-                            <li class="menu__list-item"><a class="menu__link" href="#/create">Join Socialite</a></li>
+                            <li class="menu__list-item"><a class="menu__link" href="#/create">Join</a></li>
                             <li class="menu__list-item"><a class="menu__link" href="#/login">Login</a></li>
                         </ul>
                     </div>
@@ -33,10 +33,11 @@ export default class DynamicNavBar extends Component {
         } else {
           this.state.renderComponent = (
             <Menu>
-            <a href="#"><img href="#" src={NavLogo} className="mobile_menu_logo"/></a>
+            <img href="#" src={NavLogo} className="mobile_menu_logo"/>
+            <a href="#" className="links"><FontAwesomeIcon icon={faHome}/><span> Home</span></a>
             <a href="#/talent" className="links"><FontAwesomeIcon icon={faRing}/><span> Talent</span></a>
             <a href="#/brands" className="links"><FontAwesomeIcon icon={faBuilding}/><span> Brands</span></a>
-            <a href="#/create" className="links"><FontAwesomeIcon icon={faUserCircle}/><span> Join Socialite</span></a>
+            <a href="#/create" className="links"><FontAwesomeIcon icon={faUserCircle}/><span> Join</span></a>
             <a href="#/login" className="links"><FontAwesomeIcon icon={faUserAlt}/><span> Login</span></a>
             <footer>
               <div className="copyright">

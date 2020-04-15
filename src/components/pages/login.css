@@ -1,5 +1,6 @@
 h1
 {
+    color: #03989e;
     margin: auto;
 	font-size: 5vw;
 }
@@ -15,6 +16,7 @@ h1
 
 .login_icons
 {
+    color: #03989e;
     font-size: 4vw;
     margin-right: 3rem;
     float: left;

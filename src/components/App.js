@@ -13,7 +13,7 @@ import "./App.css";
 import Home from "./pages/home/home.js"
 import Talent from "./pages/talent/talent.js"
 import Brands from "./pages/brands/brands.js"
-import Create from "./pages/create.js"
+import Create from "./pages/create/create.js"
 import Login from "./pages/login.js"
 
 import NavBar from './nav/navbar.jsx'

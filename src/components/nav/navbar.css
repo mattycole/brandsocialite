@@ -33,7 +33,6 @@
     padding: 0;
     height: 100%;
     margin: 0;
-    margin-right: s2em;
 }
 
 .menu__list-item {
@@ -47,31 +46,32 @@
 }
 
 .menu__link {
-    color: #3a3e47;
+    color: #03989e;
     display: inline-block;
     height: 100%;
-    font-size: 1.65vw;
+    font-size: 1.2vw;
     text-decoration: none;
     text-transform: uppercase;
     display: flex;
     align-items: center;
     padding: 0 3px;
+    font-weight: 800;
+
 }
 
 .menu__link:hover {
-    color: #03989e;
+    color: goldenrod;
 }
 
 .menu__link:active {
     color: #03989e;
     border-top: 4px solid #03989e;
-    font-weight: 700;
 }
 
 .menu_logo {
     display: block;
     /*height: 10vw -> 2.93 : 1 -> 50-29.3/2=35.35*/
-    margin-left: 35.35vw;
+    margin-left: 37vw;
     margin-right: auto;
     height: 95%;
 }
@@ -88,7 +88,7 @@
   
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
-    background: #373a47;
+    background: #E3CF9D;
   }
   
   /* Color/shape of burger icon bars on hover*/
@@ -159,6 +159,7 @@
     border-bottom-right-radius: 20px 50px;
     border-bottom-left-radius: 20px 50px;
     cursor: pointer;
+    color: #03989e;
   }
   
   .mobile_menu_logo
@@ -185,6 +186,7 @@
 
   .social_media_icons
   {
+    color: #03989e;
     padding-top: 2vh;
     padding-left: 1vh;
   }
