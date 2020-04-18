@@ -24,7 +24,7 @@ class Talent extends Component {
               </div>      */}
               <div className="container">
                 <div className="talent_header">
-                  <h1>
+                  <h1 className="talent_header_text">
                     Our Promise
                   </h1>
                 </div>

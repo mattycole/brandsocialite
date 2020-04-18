@@ -17,17 +17,17 @@
     font-size: 1.5vw;
     position: relative;
     background: none;
-    color: aqua;
+    color: black;
     text-transform: uppercase;
     text-decoration: none;
-    border: 0.2em solid aqua;
+    border: 0.2em solid black;
     padding: 0.5em 1em;
     &::before {
       content: "";
       display: block;
       position: absolute;
       width: 10%;
-      background: #222;
+      background: white;
       height: 0.3em;
       right: 20%;
       top: -0.21em;
@@ -40,7 +40,7 @@
       display: block;
       position: absolute;
       width: 10%;
-      background: #222;
+      background: white;
       height: 0.3em;
       left: 20%;
       bottom: -0.25em;
@@ -58,34 +58,16 @@
     }
   }  
 
-  .eve-but {
+  .green-highlight {
     &::before {
-      background: aliceblue !important;
+      background: #03989e !important;
     }
     &::after {
-      background: aliceblue !important;
+      background: #03989e !important;
     }
   }
 
-  .bart
-  {
-    color: burlywood !important;
-    border: 0.2em solid burlywood !important;
-  }
-
-  .somm
-  {
-    color: darkgoldenrod !important;
-    border: 0.2em solid darkgoldenrod !important;
-  }
-
-  .pho
-  {
-    color: BlanchedAlmond !important;
-    border: 0.2em solid BlanchedAlmond !important;
-  }
-
-  .eve
+  .mobile-frame
   {
     color: DarkSlateGrey !important;
     border: 0.2em solid DarkSlateGrey !important;

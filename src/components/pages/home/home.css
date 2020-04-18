@@ -17,35 +17,47 @@
 	-o-transition: all 0.5s ease-in-out;
 	transition: all 0.5s ease-in-out;
 	position: absolute;
-	top: 4%;
-	left: 50%;
-	bottom: auto;
-	margin-left: 13%;
-	width: 35%;
+	text-align: center;
+	top: 10vw;
+	left: 67vw;
+	margin: 0;
+	width: 30vw;
+	height: 22vw;
 	border-radius: 10px;
-	background-color: transparent;
-    /* background-color: rgba(3, 152, 158, 0.3);
-    background: linear-gradient(to right, transparent, #03989e); */
-	color: #fff;
-	padding: 10px;
+	line-height: 3.3vw;
+	text-shadow: -1.5px -1.5px 1.5px #E3CF9D, 1.5px -1.5px 1.5px #E3CF9D, -1.5px 1.5px 1.5px #E3CF9D, 1.5px 1.5px 1.5px #E3CF9D;
+	/* text-shadow: 0 0 5px rgba(227, 207, 157); */
+	background: transparent;
+    /* background: linear-gradient(to right, transparent, #03989e, #03989e); */
+	color: #000;
 	opacity: 1;
 	-webkit-transition: opacity 0.35s ease-in-out;
 	-moz-transition: opacity 0.35s ease-in-out;
 	-ms-transition: opacity 0.35s ease-in-out;
 	-o-transition: opacity 0.35s ease-in-out;
 	transition: opacity 0.35s ease-in-out;
-	padding-top: 8%;
+	padding-top: 3%;
+}
+
+.talent_container
+{
+	height: 40vw !important;
 }
 
 .carousel_talent_text
 {
+	font-size: 1.8vw;
     position: relative;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2em;
+    width: 100%;
+
+    margin-top: 3vw;
 	/* margin-right: 40%;
 	text-align: right; */
+}
+
+.photo
+{
+	font-size: 2vw !important;
 }
 
 .mobile_logo
@@ -62,17 +74,12 @@
 
 .slideshow_title
 {
-	color: white;
-}
-
-.shifted
-{
-	margin-left: -2vw !important;
+	margin-bottom: 3%;
+	color: #000;
 }
 
 h1
 {
-	/* transform: scale(1.2, 1); */
 	font-size: 2.7vw !important;
 	letter-spacing: 0.2em;
 	padding-bottom: 2vw;
@@ -81,6 +88,11 @@ h1
 p
 {
 	font-size: 2.3vw;
+}
+
+.shifted
+{
+	margin-left: -2vw !important;
 }
 
 
@@ -166,8 +178,34 @@ p
 	}
 }
 
+@media only screen and (max-width:530px)
+{
+	.carousel_talent_text
+	{
+		font-size: 1.5vw;
+	}
+
+}
+
 @media only screen and (max-width:768px)
 {
+	.carousel .slide .legend
+	{
+		top: 20vw !important;
+		height: 15vw;
+		transform: scale(1.2, 1.25);
+	}
+
+	.somm
+	{
+		height: 9vw !important;
+	}
+
+	.event
+	{
+		height: 12vw !important;
+	}
+
 	.mobile_logo
 	{
 		display: block;
@@ -186,24 +224,27 @@ p
 		display: none;
 	}
 
-	.slideshow_title
+	/* .slideshow_title
 	{
-		/* transform: scale(1, 1); */
-		margin-left: -22vw;
-		font-size: 5vw !important;
+		margin-left: -20vw;
+		font-size: 4vw !important;
 	}
 	.talent
 	{
 		padding-left: 20vw;
-	}
+	} */
 
 	.text_center
 	{
 		margin-top: 10vw;
 	}
 
-	.carousel_talent_text
+	/* .carousel_talent_text
 	{
-		font-size: 2.5vw;
+		font-size: 2.2vw;
+	} */
+	.talent_container
+	{
+		height: 35vw !important;
 	}
 }
