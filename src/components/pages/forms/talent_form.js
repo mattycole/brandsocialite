@@ -91,7 +91,7 @@ class TalentForm extends Component {
                     </div>
                     <div className='form-group'>
                       <label htmlFor='phone'>Phone</label>
-                      <input type='number' className='form-control' id='phone' placeholder='+52 1' ref={phone => this.inputPhone = phone} />
+                      <input type='number' className='form-control' id='phone' placeholder='+1' ref={phone => this.inputPhone = phone} />
                     </div>
                     <div className='form-group'>
                       <label htmlFor='bartender_exp'>Bartender Experience</label>

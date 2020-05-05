@@ -13,10 +13,10 @@ import UserProvider from "../providers/UserProvider";
 import Application from "./auth/auth.js";
 
 // Connect pages
-import Home from "./pages/home.js"
+import Home from "./pages/home/home.js"
 import Talent from "./pages/talent/talent.js"
 import Brands from "./pages/brands/brands.js"
-import Login from "./pages/login/login.js"
+import Login from "./pages/login.js"
 import Create from "./pages/create/create.js"
 
 import NavBar from './nav/navbar.jsx'

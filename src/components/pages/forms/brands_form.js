@@ -79,20 +79,11 @@ class BrandForm extends Component {
                     </div>
                     <div className='form-group'>
                       <label htmlFor='city'>City</label>
-                      {/* <select className='form-control' id='city' ref={city => this.inputCity = city}>
-                        <option value='México'>México</option>
-                        <option value='Guadalajara'>Guadalajara</option>
-                        <option value='Monterrey'>Monterrey</option>
-                      </select> */}
                       <input type='text' className='form-control' id='city' placeholder='Los Angeles' ref={city => this.inputCity = city} />
                     </div>
                     <div className='form-group'>
                       <label htmlFor='phone'>Phone</label>
-                      <input type='number' className='form-control' id='phone' placeholder='+52 1' ref={phone => this.inputPhone = phone} />
-                    </div>
-                    <div className='form-group'>
-                      <label htmlFor='bartender_exp'>Bartender Experience</label>
-                      <input type='number' className='form-control' id='bartender_exp' placeholder='' ref={bartender_exp => this.inputbartender_exp = bartender_exp} />
+                      <input type='number' className='form-control' id='phone' placeholder='+1' ref={phone => this.inputPhone = phone} />
                     </div>
                     <div className='form-group'>
                       <label htmlFor='message'>Additional Info</label>
