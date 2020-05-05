@@ -14,11 +14,10 @@ import Application from "./auth/auth.js";
 
 // Connect pages
 import Home from "./pages/home.js"
-import Professional from "./pages/professional.js"
-import Business from "./pages/business.js"
-
-//import SignUp from "./account/signin.js"
-//import SignIn from "./account/sinup.js"
+import Talent from "./pages/talent/talent.js"
+import Brands from "./pages/brands/brands.js"
+import Login from "./pages/login/login.js"
+import Create from "./pages/create/create.js"
 
 import NavBar from './nav/navbar.jsx'
 import Footer from './nav/footer.jsx'

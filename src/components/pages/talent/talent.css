@@ -1,0 +1,71 @@
+.talent_header
+{
+    display: inline-flex;
+    color: #03989e;
+    position: relative;
+    padding-top: 5vw;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.text
+{
+    color: #03989e;
+	position: relative;
+	margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+.imageContainer 
+{
+    position: relative;
+    width: 40vw;
+    height: 40vw;
+    margin-left: 5vw;
+}
+.container
+{
+    height: 30vw;
+}
+
+@media only screen and (max-width:1150px) 
+{
+    .imageContainer
+    {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:768px)
+{
+    .container
+    {
+        margin-top: 50px;
+    }
+    .talent_header_text
+    {
+        font-size: 3rem !important;
+    }
+    p
+    {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width:426px)
+{
+    .container
+    {
+        margin-top: 70px;
+    }
+    .talent_header_text
+    {
+        font-size: 2rem !important;
+    }
+    p
+    {
+        font-size: 1.5rem;
+    }
+}

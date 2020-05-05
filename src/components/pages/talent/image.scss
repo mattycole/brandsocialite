@@ -1,0 +1,61 @@
+/* For Talent */
+
+:root {
+    --tile: 40px;
+    --radius: 50%;
+  }
+  
+
+.glass {
+position: absolute;
+width: 100%;
+height: 100%;
+
+& + & {
+    margin-left: 1rem;
+}
+
+&:after,
+&:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    mask-position: 50% 50%;
+    transition: mask-size .75s;
+    transition-property: mask-size, background-position;
+}
+}
+
+.glass--1 {
+&,
+&:after,
+&:before {
+    background: url("../../../assets/website_imgs/talent_page.jpg");
+    background-size: 110% 110%;
+}
+
+&:after,
+&:before {
+    mask-image: linear-gradient(to right bottom, white 51%, rgba(0,0,0,0) 0);
+    mask-size: var(--tile) var(--tile);
+    mask-position: 50% 50%;
+}
+
+&:after {
+    background-position: -.5vw -.5vw;
+    mask-image: linear-gradient(to left top, white 51%, rgba(0,0,0,0) 0);
+}
+
+&:hover:before,
+&:hover:after {
+    --tile: 100px;
+    mask-size: calc(var(--tile) * .45) calc(var(--tile) * 1.5) ;
+}
+&:hover:after {
+    background-position: -1vw -1vw;
+}
+}
