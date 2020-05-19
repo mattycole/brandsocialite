@@ -1,7 +1,6 @@
 .talent_header
 {
     display: inline-flex;
-    color: #03989e;
     position: relative;
     padding-top: 5vw;
     text-align: center;
@@ -11,8 +10,9 @@
 
 .text
 {
-    color: #03989e;
-	position: relative;
+    color: #000;
+	text-shadow: -1.5px -1.5px 1.5px #E3CF9D, 1.5px -1.5px 1.5px #E3CF9D, -1.5px 1.5px 1.5px #E3CF9D, 1.5px 1.5px 1.5px #E3CF9D;
+    position: relative;
 	margin-left: 20%;
     margin-right: 20%;
     text-align: center;

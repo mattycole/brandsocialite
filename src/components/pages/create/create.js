@@ -69,7 +69,7 @@ class Create extends Component {
       return (
           // <div className="login">
           //   <FontAwesomeIcon icon={faTools} className="login_icons"/>
-          //   <h1>Socialite in Progress</h1>
+          //   <onents\pages\talent.js>Socialite in Progress</h1>
           // </div>
           <div id="wrapper">
             <a href="#/talent-form" class="my-super-cool-btn">

@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import firebaseConf from '../../firebase.js'
 
+//Temp
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTools } from "@fortawesome/free-solid-svg-icons";
+
 class BrandForm extends Component { 
     constructor(props) {
         super(props);
@@ -46,9 +50,9 @@ class BrandForm extends Component {
         };
         if (params.name && params.email && params.phone && params.phone && params.message) {
           firebaseConf.database().ref('brands').push(params).then(() => {
-            this.showAlert('success', 'Your message was sent successfull');
+            this.showAlert('success', 'Your form was sent successfull');
           }).catch(() => {
-            this.showAlert('danger', 'Your message could not be sent');
+            this.showAlert('danger', 'Your form could not be sent');
           });
           this.resetForm();
         } else {
@@ -92,7 +96,7 @@ class BrandForm extends Component {
                     <button type='submit' className='btn btn-primary'>Send</button>
                   </form>
                 </div>
-                <div className='col-sm-8'>
+                {/* <div className='col-sm-8'>
                   <div className='row'>
                     {this.state.form.map(form =>
                       <div className='col-sm-6' key={form.phone} style={{ margin: `0px 0px 30px 0px` }}>
@@ -107,7 +111,7 @@ class BrandForm extends Component {
                         </div>
                       </div>)}
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -115,4 +119,17 @@ class BrandForm extends Component {
       }
 }
 
-  export default BrandForm;
+  //export default BrandForm;
+
+  class Temp extends Component { 
+    render() {
+      return (
+          <div className="login">
+            <FontAwesomeIcon icon={faTools} className="login_icons"/>
+            <h1>Socialite in Progress</h1>
+          </div>
+      );
+    }
+  }
+
+  export default Temp;

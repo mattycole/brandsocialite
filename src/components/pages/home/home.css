@@ -25,11 +25,11 @@
 	height: 22vw;
 	border-radius: 10px;
 	line-height: 3.3vw;
+	color: #000;
 	text-shadow: -1.5px -1.5px 1.5px #E3CF9D, 1.5px -1.5px 1.5px #E3CF9D, -1.5px 1.5px 1.5px #E3CF9D, 1.5px 1.5px 1.5px #E3CF9D;
 	/* text-shadow: 0 0 5px rgba(227, 207, 157); */
 	background: transparent;
     /* background: linear-gradient(to right, transparent, #03989e, #03989e); */
-	color: #000;
 	opacity: 1;
 	-webkit-transition: opacity 0.35s ease-in-out;
 	-moz-transition: opacity 0.35s ease-in-out;
@@ -41,7 +41,7 @@
 
 .talent_container
 {
-	height: 40vw !important;
+	height: auto !important;
 }
 
 .carousel_talent_text
@@ -108,8 +108,7 @@ p
 .how
 {
 	position: relative;
-	width: 100%;
-	height: 100%;
+	height: auto !important;
 
 	margin-top: 10vw;
 
@@ -126,9 +125,11 @@ p
 
 .process
 {
-	margin-left: 10%;
-	margin-right: 10%;
-	color: #03989e;
+	height: auto !important;
+	margin-left: 15%;
+	margin-right: 15%;
+	color: #000;
+	text-shadow: -1.5px -1.5px 1.5px #E3CF9D, 1.5px -1.5px 1.5px #E3CF9D, -1.5px 1.5px 1.5px #E3CF9D, 1.5px 1.5px 1.5px #E3CF9D;
 }
 
 /* .row
@@ -172,6 +173,17 @@ p
 {
 	display: none;
 }
+.mobile_description
+{
+	display: none;
+}
+.mobile_description_text
+{
+	text-align: center;
+	color: #000;
+	text-shadow: -1.5px -1.5px 1.5px #E3CF9D, 1.5px -1.5px 1.5px #E3CF9D, -1.5px 1.5px 1.5px #E3CF9D, 1.5px 1.5px 1.5px #E3CF9D;
+	font-size: 5vw;
+}
 
 @media only screen and (max-width:600px)
 {
@@ -192,6 +204,14 @@ p
 
 @media only screen and (max-width:768px)
 {
+	.mobile_description {
+		display: block;
+		margin: 10%;
+
+	}
+	.body_title {
+		font-size: 8vw !important;
+	}
 	.carousel .slide .legend
 	{
 		top: 20vw !important;

@@ -40,11 +40,6 @@ export default class DynamicNavBar extends Component {
             <a href="#/create" className="links"><FontAwesomeIcon icon={faUserCircle}/><span> Join</span></a>
             <a href="#/login" className="links"><FontAwesomeIcon icon={faUserAlt}/><span> Login</span></a>
             <footer>
-              <div className="copyright">
-                <h>
-                © {new Date().getFullYear()}, Brand Socialite Inc.
-                </h>
-              </div>
               <a href="https://www.facebook.com/brandsocialiteinc" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faFacebook} size="2x" className="social_media_icons"/> 
               </a>
@@ -54,6 +49,11 @@ export default class DynamicNavBar extends Component {
               <a href="https://www.linkedin.com/company/brandsocialite" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faLinkedin} size="2x" className="social_media_icons"/> 
               </a>
+              <div className="copyright">
+                <h>
+                © {new Date().getFullYear()}, Brand Socialite Inc.
+                </h>
+              </div>
             </footer>
             </Menu>
           );

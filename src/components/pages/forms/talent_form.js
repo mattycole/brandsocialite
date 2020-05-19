@@ -54,9 +54,9 @@ class TalentForm extends Component {
         };
         if (params.name && params.email && params.phone && params.phone && params.message) {
           firebaseConf.database().ref('talent').push(params).then(() => {
-            this.showAlert('success', 'Your message was sent successfull');
+            this.showAlert('success', 'Your form was sent successfull');
           }).catch(() => {
-            this.showAlert('danger', 'Your message could not be sent');
+            this.showAlert('danger', 'Your form could not be sent');
           });
           this.resetForm();
         } else {
@@ -128,7 +128,7 @@ class TalentForm extends Component {
                     <button type='submit' className='btn btn-primary'>Send</button>
                   </form>
                 </div>
-                <div className='col-sm-8'>
+                {/* <div className='col-sm-8'>
                   <div className='row'>
                     {this.state.form.map(form =>
                       <div className='col-sm-6' key={form.phone} style={{ margin: `0px 0px 30px 0px` }}>
@@ -143,7 +143,7 @@ class TalentForm extends Component {
                         </div>
                       </div>)}
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

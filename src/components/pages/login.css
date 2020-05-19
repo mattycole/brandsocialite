@@ -1,22 +1,16 @@
-h1
-{
-    color: #03989e;
-    margin: auto;
-	font-size: 5vw;
-}
-
 .login
 {
     padding: 10vw;
     display: flex;
-    height: 40vh;
+    height: auto !important;
     justify-content: center;
     align-items: center;
 }
 
 .login_icons
 {
-    color: #03989e;
+    color: #000;
+	text-shadow: -1.5px -1.5px 1.5px #E3CF9D, 1.5px -1.5px 1.5px #E3CF9D, -1.5px 1.5px 1.5px #E3CF9D, 1.5px 1.5px 1.5px #E3CF9D;
     font-size: 4vw;
     margin-right: 3rem;
     float: left;

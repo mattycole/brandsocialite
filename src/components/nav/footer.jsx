@@ -17,13 +17,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
           this.state.renderComponent = (
             <footer className="footer">
               <a href="https://www.facebook.com/brandsocialiteinc" target="_blank" rel="noopener noreferrer">
-                <FontAwesomeIcon icon={faFacebook} size="2x" className="social_media_icons"/> 
+                <FontAwesomeIcon icon={faFacebook} className="social_media_icons"/> 
               </a>
               <a href="https://www.instagram.com/brandsocialite" target="_blank" rel="noopener noreferrer">
-                <FontAwesomeIcon icon={faInstagram} size="2x" className="social_media_icons"/> 
+                <FontAwesomeIcon icon={faInstagram} className="social_media_icons"/> 
               </a>
               <a href="https://www.linkedin.com/company/brandsocialite" target="_blank" rel="noopener noreferrer">
-                <FontAwesomeIcon icon={faLinkedin} size="2x" className="social_media_icons"/> 
+                <FontAwesomeIcon icon={faLinkedin} className="social_media_icons"/> 
               </a>
               <div className="copyright">
                 <h>

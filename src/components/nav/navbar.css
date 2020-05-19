@@ -46,7 +46,8 @@
 }
 
 .menu__link {
-    color: #03989e;
+  color: #000;
+
     display: inline-block;
     height: 100%;
     font-size: 1.2vw;
@@ -64,8 +65,10 @@
 }
 
 .menu__link:active {
-    color: #03989e;
-    border-top: 4px solid #03989e;
+    color: #000;
+  	text-shadow: -1.5px -1.5px 1.5px #E3CF9D, 1.5px -1.5px 1.5px #E3CF9D, -1.5px 1.5px 1.5px #E3CF9D, 1.5px 1.5px 1.5px #E3CF9D;
+
+    border-top: 4px solid #E3CF9D;
 }
 
 .menu_logo {
@@ -93,7 +96,7 @@
   
   /* Color/shape of burger icon bars on hover*/
   .bm-burger-bars-hover {
-    background: #03989e;
+    background: black;
   }
   
   /* Position and sizing of clickable cross button */
@@ -118,7 +121,7 @@
   
   /* General sidebar styles */
   .bm-menu {
-    background: #03989e;
+    background: white;
     /* padding: 2.5em 1.5em 0; */
     font-size: 1.15em;
     overflow: hidden;
@@ -159,19 +162,20 @@
     border-bottom-right-radius: 20px 50px;
     border-bottom-left-radius: 20px 50px;
     cursor: pointer;
-    color: #03989e;
+    color: black;
   }
   
   .mobile_menu_logo
   {
-    margin-top: 2vw;
-    width: 100%
+    margin: 10% !important;
+    width: 80%;
+    margin: auto;
   }
 
   /* Footer in Mobile */
   footer {
     position: relative;
-    margin-top: 33vh;
+    margin-top: 30vh;
     height: 6vh; /*calc used to do arithmetic*/
   }
 

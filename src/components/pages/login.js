@@ -7,25 +7,25 @@ import "./login.css";
 
 import Authorization from "../auth/auth.js"
 
-// class Login extends Component { 
-//     render() {
-//       return (
-//           <div className="login">
-//             <FontAwesomeIcon icon={faTools} className="login_icons"/>
-//             <h1>Socialite in Progress</h1>
-//           </div>
-//       );
-//     }
-//   }
-
-//   export default Login;
-
-  class Account extends Component { 
+class Temp extends Component { 
     render() {
       return (
-        <Authorization/>
+          <div className="login">
+            <FontAwesomeIcon icon={faTools} className="login_icons"/>
+            <h1>Socialite in Progress</h1>
+          </div>
       );
     }
   }
 
-  export default Account;
+  export default Temp;
+
+  // class Account extends Component { 
+  //   render() {
+  //     return (
+  //       <Authorization/>
+  //     );
+  //   }
+  // }
+
+  // export default Account;
