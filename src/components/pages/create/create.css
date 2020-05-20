@@ -12,7 +12,7 @@ h1
 {
     padding: 10vw;
     display: flex;
-    height: 40vh;
+    height: auto !important;
     justify-content: center;
     align-items: center;
 }
@@ -291,7 +291,7 @@ body{
 {
     .my-super-cool-btn
     {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .my-super-cool-btn span
     {
@@ -301,10 +301,6 @@ body{
 }
 @media only screen and (max-width:320px)
 {
-    .my-super-cool-btn
-    {
-        font-size: 1rem;
-    }
     .my-super-cool-btn span
     {
         width: 8rem;

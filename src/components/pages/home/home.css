@@ -88,7 +88,7 @@ h1
 
 p
 {
-	font-size: 2.3vw;
+	font-size: 5vw;
 }
 
 .shifted
@@ -111,10 +111,6 @@ p
 	height: auto !important;
 
 	margin-top: 10vw;
-
-	background: 
-	linear-gradient(white, transparent, white),
-	url("../../../assets/website_imgs/background.png")
 }
 
 .header
@@ -159,7 +155,6 @@ p
 {
 	text-indent: 0;
 	margin-top: 1em;
-	font-size: 2em;
 }
 
 .icons
@@ -169,20 +164,29 @@ p
 	font-size: 10vw;
 }
 
-.mobile_button
+.button
 {
-	display: none;
+	display: block !important;
+	text-align: center;
+	position: relative;
+	margin-top: 5vw;
+	margin-left: auto;
 }
+
 .mobile_description
 {
 	display: none;
 }
+
 .mobile_description_text
 {
 	text-align: center;
 	color: #000;
 	text-shadow: -1.5px -1.5px 1.5px #E3CF9D, 1.5px -1.5px 1.5px #E3CF9D, -1.5px 1.5px 1.5px #E3CF9D, 1.5px 1.5px 1.5px #E3CF9D;
-	font-size: 5vw;
+}
+
+a:hover{
+	color: white;
 }
 
 @media only screen and (max-width:600px)
@@ -191,15 +195,6 @@ p
 	{
 		font-size: 1.5em;
 	}
-}
-
-@media only screen and (max-width:530px)
-{
-	.carousel_talent_text
-	{
-		font-size: 1.5vw;
-	}
-
 }
 
 @media only screen and (max-width:768px)
@@ -232,14 +227,6 @@ p
 	.mobile_logo
 	{
 		display: block;
-	}
-
-	.mobile_button
-	{
-		display: block !important;
-		position: relative;
-		margin-top: 10vw;
-		margin-left: 22vw;
 	}
 
 	.icon_text

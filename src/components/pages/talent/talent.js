@@ -2,29 +2,14 @@ import React, { Component } from 'react';
 import { Button, Container} from 'react-bootstrap';
 
 import "./talent.css";
-import "./text.scss";
-import "./image.scss";
 
 class Talent extends Component { 
     render() {
       return (
             <Container>
-              {/* <h4 class="wordCarousel">    
-                <div> 
-                    <ul class="flip3"> 
-                        <li>Exclusive Events</li>
-                        <li>Iconic Brands</li>
-                        <li>Once-in-a-lifetime Experiences</li> 
-                        <li>Awesome</li>  
-                    </ul>
-                </div>  
-              </h4>   */}
-              {/* <div class="imageContainer">
-                <div class="glass glass--1"></div>
-              </div>      */}
               <div className="container">
                 <div className="talent_header">
-                  <h1 className="talent_header_text">
+                  <h1 className="body_title">
                     Our Promise
                   </h1>
                 </div>

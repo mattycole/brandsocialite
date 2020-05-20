@@ -10,8 +10,8 @@ import Authorization from "../auth/auth.js"
 class Temp extends Component { 
     render() {
       return (
-          <div className="login">
-            <FontAwesomeIcon icon={faTools} className="login_icons"/>
+          <div className="temp">
+            <FontAwesomeIcon icon={faTools} className="temp_icons"/>
             <h1>Socialite in Progress</h1>
           </div>
       );

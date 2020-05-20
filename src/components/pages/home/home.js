@@ -27,9 +27,6 @@ class Home extends Component {
                       <img src={Talent}/>
                       <div className="legend talent_container">
                       <h1 className="slideshow_title talent">TALENT<br/>ON DEMAND</h1>
-                        <a href="#/login" class="brk-btn mobile_hidden">
-                            Request Talent
-                        </a>
                         <p className ="carousel_talent_text mobile_hidden">For Event Mangers, <br/>Hotels, Catering Companies, and Experiential Marketing Agencies</p>
                       </div>
                   </div>
@@ -37,36 +34,24 @@ class Home extends Component {
                       <img src={Bartender}/>
                       <div className="legend">
                       <h1 className="slideshow_title">BARTENDERS <br/> &amp; <br/>  MIXOLOGISTS</h1>
-                        <a href="#/login" class="brk-btn mobile_hidden">
-                            Request Talent
-                        </a>
                       </div>
                   </div>
                   <div>
                       <img src={Sommelier}/>
                       <div className="legend somm">
                         <h1 className="slideshow_title">SOMMELIERS</h1>
-                        <a href="#/login" class="brk-btn mobile_hidden">
-                          Request Talent
-                        </a>
                       </div>
                   </div>
                   <div>
                       <img src={Photographer}/>
                       <div className="legend">
                       <h1 className="slideshow_title photo">PHOTOGRAPHERS <br/>  &amp; <br/>  VIDEOGRAPHERS</h1>
-                        <a href="#/login" class="brk-btn mobile_hidden">
-                            Request Talent
-                        </a>
                       </div>
                   </div>
                   <div>
                       <img src={EventProducer}/>
                       <div className="legend event">
                       <h1 className="slideshow_title">EVENT PRODUCERS</h1>
-                        <a href="#/login" class="brk-btn mobile_hidden">
-                            Request Talent
-                        </a>
                       </div>
                   </div>
               </Carousel>
@@ -74,8 +59,8 @@ class Home extends Component {
             <div>
               <img src={Logo} className="mobile_logo"/>
             </div>
-            <div className="mobile_button">
-              <a href="#/login" class="brk-btn green-highlight mobile-frame">
+            <div className="button">
+              <a href="#/login" class="brk-btn mobile-frame">
                 Request Talent
               </a>
             </div>
