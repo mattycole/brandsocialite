@@ -1,7 +1,11 @@
-.header
+.container
 {
-    color: #03989e;
-	margin-top: 5vw;
+    height: auto !important;
+}
+
+.body_title
+{
+    margin-top: 5vw;
     text-align: center;
 }
 

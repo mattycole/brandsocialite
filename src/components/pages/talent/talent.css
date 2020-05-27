@@ -1,7 +1,6 @@
 .talent_header
 {
     display: inline-flex;
-    color: #03989e;
     position: relative;
     padding-top: 5vw;
     text-align: center;
@@ -11,8 +10,9 @@
 
 .text
 {
-    color: #03989e;
-	position: relative;
+    color: #000;
+	text-shadow: -1.5px -1.5px 1.5px #E3CF9D, 1.5px -1.5px 1.5px #E3CF9D, -1.5px 1.5px 1.5px #E3CF9D, 1.5px 1.5px 1.5px #E3CF9D;
+    position: relative;
 	margin-left: 20%;
     margin-right: 20%;
     text-align: center;
@@ -25,9 +25,10 @@
     height: 40vw;
     margin-left: 5vw;
 }
+
 .container
 {
-    height: 30vw;
+    height: auto !important;
 }
 
 @media only screen and (max-width:1150px) 
@@ -44,7 +45,7 @@
     {
         margin-top: 50px;
     }
-    h1
+    .talent_header_text
     {
         font-size: 3rem !important;
     }
@@ -60,7 +61,7 @@
     {
         margin-top: 70px;
     }
-    h1
+    .talent_header_text
     {
         font-size: 2rem !important;
     }

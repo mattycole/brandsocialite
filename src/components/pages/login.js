@@ -5,15 +5,27 @@ import { faTools } from "@fortawesome/free-solid-svg-icons";
 
 import "./login.css";
 
-class Login extends Component { 
+import Authorization from "../auth/auth.js"
+
+class Temp extends Component { 
     render() {
       return (
-          <div className="login">
-            <FontAwesomeIcon icon={faTools} className="login_icons"/>
+          <div className="temp">
+            <FontAwesomeIcon icon={faTools} className="temp_icons"/>
             <h1>Socialite in Progress</h1>
           </div>
       );
     }
   }
 
-  export default Login;
+  export default Temp;
+
+  // class Account extends Component { 
+  //   render() {
+  //     return (
+  //       <Authorization/>
+  //     );
+  //   }
+  // }
+
+  // export default Account;

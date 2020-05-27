@@ -2,8 +2,9 @@
 
 h1
 {
-    color: #03989e;
-    margin: auto;
+  color: #000;
+	text-shadow: -1.5px -1.5px 1.5px #E3CF9D, 1.5px -1.5px 1.5px #E3CF9D, -1.5px 1.5px 1.5px #E3CF9D, 1.5px 1.5px 1.5px #E3CF9D;
+  margin: auto;
 	font-size: 5vw;
 }
 
@@ -11,14 +12,14 @@ h1
 {
     padding: 10vw;
     display: flex;
-    height: 40vh;
+    height: auto !important;
     justify-content: center;
     align-items: center;
 }
 
 .login_icons
 {
-    color: #03989e;
+    color: black;
     font-size: 4vw;
     margin-right: 3rem;
     float: left;
@@ -49,7 +50,7 @@ body{
 .my-super-cool-btn{
   position:relative;
   text-decoration:none;
-  color:#03989e;
+  color: black;
   letter-spacing:1px;
   font-size:2rem;
   box-sizing:border-box;
@@ -70,14 +71,14 @@ body{
   display:block;
   position:absolute;
   border-radius:100%;
-  border:7px solid #03989e;
+  border:7px solid #E3CF9D ;
   box-sizing:border-box;
   transition: all .85s cubic-bezier(0.25, 1, 0.33, 1);
-  box-shadow: 0 30px 85px rgba(0,0,0,0.14), 0 15px 35px rgba(0,0,0,0.14);
+  box-shadow: 0 30px 85px rgba(157, 167, 227, 0.14), 0 15px 35px rgba(157, 167, 227, 0.14);
 }
 .my-super-cool-btn:hover span:before{
   transform:scale(0.8);
-  box-shadow: 0 20px 55px rgba(0,0,0,0.14), 0 15px 35px rgba(0,0,0,0.14);
+  box-shadow: 0 20px 55px rgba(157, 167, 227, 0.14), 0 15px 35px rgba(157, 167, 227, 0.14);
 }
 .my-super-cool-btn .dots-container{
   opacity:0;
@@ -88,7 +89,7 @@ body{
   width:8px;
   height:8px;
   display:block;
-  background-color:#03989e;
+  background-color:#E3CF9D;
   border-radius:100%;
   position:absolute;
   transition: all .85s cubic-bezier(0.25, 1, 0.33, 1);
@@ -290,7 +291,7 @@ body{
 {
     .my-super-cool-btn
     {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .my-super-cool-btn span
     {
@@ -300,10 +301,6 @@ body{
 }
 @media only screen and (max-width:320px)
 {
-    .my-super-cool-btn
-    {
-        font-size: 1rem;
-    }
     .my-super-cool-btn span
     {
         width: 8rem;

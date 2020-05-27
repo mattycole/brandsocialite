@@ -33,18 +33,13 @@ export default class DynamicNavBar extends Component {
         } else {
           this.state.renderComponent = (
             <Menu>
-            <img href="#" src={NavLogo} className="mobile_menu_logo"/>
-            <a href="#" className="links"><FontAwesomeIcon icon={faHome}/><span> Home</span></a>
-            <a href="#/talent" className="links"><FontAwesomeIcon icon={faRing}/><span> Talent</span></a>
-            <a href="#/brands" className="links"><FontAwesomeIcon icon={faBuilding}/><span> Brands</span></a>
-            <a href="#/create" className="links"><FontAwesomeIcon icon={faUserCircle}/><span> Join</span></a>
-            <a href="#/login" className="links"><FontAwesomeIcon icon={faUserAlt}/><span> Login</span></a>
+            <img src={NavLogo} className="mobile_menu_logo"/>
+            <a href="#" className="links noSelect"><FontAwesomeIcon icon={faHome}/><span> Home</span></a>
+            <a href="#/talent" className="links noSelect"><FontAwesomeIcon icon={faRing}/><span> Talent</span></a>
+            <a href="#/brands" className="links noSelect"><FontAwesomeIcon icon={faBuilding}/><span> Brands</span></a>
+            <a href="#/create" className="links noSelect"><FontAwesomeIcon icon={faUserCircle}/><span> Join</span></a>
+            <a href="#/login" className="links noSelect"><FontAwesomeIcon icon={faUserAlt}/><span> Login</span></a>
             <footer>
-              <div className="copyright">
-                <h>
-                © {new Date().getFullYear()}, Brand Socialite Inc.
-                </h>
-              </div>
               <a href="https://www.facebook.com/brandsocialiteinc" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faFacebook} size="2x" className="social_media_icons"/> 
               </a>
@@ -54,6 +49,11 @@ export default class DynamicNavBar extends Component {
               <a href="https://www.linkedin.com/company/brandsocialite" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faLinkedin} size="2x" className="social_media_icons"/> 
               </a>
+              <div className="copyright">
+                <h>
+                © {new Date().getFullYear()}, Brand Socialite Inc.
+                </h>
+              </div>
             </footer>
             </Menu>
           );

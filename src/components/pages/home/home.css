@@ -17,35 +17,47 @@
 	-o-transition: all 0.5s ease-in-out;
 	transition: all 0.5s ease-in-out;
 	position: absolute;
-	top: 4%;
-	left: 50%;
-	bottom: auto;
-	margin-left: 13%;
-	width: 35%;
+	text-align: center;
+	top: 10vw;
+	left: 67vw;
+	margin: 0;
+	width: 30vw;
+	height: 22vw;
 	border-radius: 10px;
-	background-color: transparent;
-    /* background-color: rgba(3, 152, 158, 0.3);
-    background: linear-gradient(to right, transparent, #03989e); */
-	color: #fff;
-	padding: 10px;
+	line-height: 3.3vw;
+	color: #000;
+	text-shadow: -1.5px -1.5px 1.5px #E3CF9D, 1.5px -1.5px 1.5px #E3CF9D, -1.5px 1.5px 1.5px #E3CF9D, 1.5px 1.5px 1.5px #E3CF9D;
+	/* text-shadow: 0 0 5px rgba(227, 207, 157); */
+	background: transparent;
+    /* background: linear-gradient(to right, transparent, #03989e, #03989e); */
 	opacity: 1;
 	-webkit-transition: opacity 0.35s ease-in-out;
 	-moz-transition: opacity 0.35s ease-in-out;
 	-ms-transition: opacity 0.35s ease-in-out;
 	-o-transition: opacity 0.35s ease-in-out;
 	transition: opacity 0.35s ease-in-out;
-	padding-top: 8%;
+	padding-top: 3%;
+}
+
+.talent_container
+{
+	height: auto !important;
 }
 
 .carousel_talent_text
 {
+	font-size: 1.8vw;
     position: relative;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2em;
+    width: 100%;
+
+    margin-top: 3vw;
 	/* margin-right: 40%;
 	text-align: right; */
+}
+
+.photo
+{
+	font-size: 2vw !important;
 }
 
 .mobile_logo
@@ -62,17 +74,13 @@
 
 .slideshow_title
 {
-	color: white;
-}
-
-.shifted
-{
-	margin-left: -2vw !important;
+	margin-bottom: 3%;
+	color: #000;
 }
 
 h1
 {
-	/* transform: scale(1.2, 1); */
+	font-weight: bold;
 	font-size: 2.7vw !important;
 	letter-spacing: 0.2em;
 	padding-bottom: 2vw;
@@ -80,7 +88,12 @@ h1
 
 p
 {
-	font-size: 2.3vw;
+	font-size: 5vw;
+}
+
+.shifted
+{
+	margin-left: -2vw !important;
 }
 
 
@@ -95,14 +108,9 @@ p
 .how
 {
 	position: relative;
-	width: 100%;
-	height: 100%;
+	height: auto !important;
 
 	margin-top: 10vw;
-
-	background: 
-	linear-gradient(white, transparent, white),
-	url("../../../assets/website_imgs/background.png")
 }
 
 .header
@@ -113,9 +121,11 @@ p
 
 .process
 {
-	margin-left: 10%;
-	margin-right: 10%;
-	color: #03989e;
+	height: auto !important;
+	margin-left: 15%;
+	margin-right: 15%;
+	color: #000;
+	text-shadow: -1.5px -1.5px 1.5px #E3CF9D, 1.5px -1.5px 1.5px #E3CF9D, -1.5px 1.5px 1.5px #E3CF9D, 1.5px 1.5px 1.5px #E3CF9D;
 }
 
 /* .row
@@ -135,15 +145,16 @@ p
 .column
 {
 	float: left;
-	width: 26.6%;
+	width: 33.3%;
 	text-align: center;
-    padding: 3.3%;
+	padding: 3.3%;
+
 }
 
 .icon_text
 {
 	text-indent: 0;
-	font-size: 2em;
+	margin-top: 1em;
 }
 
 .icons
@@ -153,9 +164,29 @@ p
 	font-size: 10vw;
 }
 
-.mobile_button
+.button
+{
+	display: block !important;
+	text-align: center;
+	position: relative;
+	margin-top: 5vw;
+	margin-left: auto;
+}
+
+.mobile_description
 {
 	display: none;
+}
+
+.mobile_description_text
+{
+	text-align: center;
+	color: #000;
+	text-shadow: -1.5px -1.5px 1.5px #E3CF9D, 1.5px -1.5px 1.5px #E3CF9D, -1.5px 1.5px 1.5px #E3CF9D, 1.5px 1.5px 1.5px #E3CF9D;
+}
+
+a:hover{
+	color: white;
 }
 
 @media only screen and (max-width:600px)
@@ -168,17 +199,34 @@ p
 
 @media only screen and (max-width:768px)
 {
+	.mobile_description {
+		display: block;
+		margin: 10%;
+
+	}
+	.body_title {
+		font-size: 8vw !important;
+	}
+	.carousel .slide .legend
+	{
+		top: 20vw !important;
+		height: 15vw;
+		transform: scale(1.2, 1.25);
+	}
+
+	.somm
+	{
+		height: 9vw !important;
+	}
+
+	.event
+	{
+		height: 12vw !important;
+	}
+
 	.mobile_logo
 	{
 		display: block;
-	}
-
-	.mobile_button
-	{
-		display: block !important;
-		position: relative;
-		margin-top: 10vw;
-		margin-left: 22vw;
 	}
 
 	.icon_text
@@ -186,24 +234,27 @@ p
 		display: none;
 	}
 
-	.slideshow_title
+	/* .slideshow_title
 	{
-		/* transform: scale(1, 1); */
-		margin-left: -22vw;
-		font-size: 5vw !important;
+		margin-left: -20vw;
+		font-size: 4vw !important;
 	}
 	.talent
 	{
 		padding-left: 20vw;
-	}
+	} */
 
 	.text_center
 	{
 		margin-top: 10vw;
 	}
 
-	.carousel_talent_text
+	/* .carousel_talent_text
 	{
-		font-size: 2.5vw;
+		font-size: 2.2vw;
+	} */
+	.talent_container
+	{
+		height: 35vw !important;
 	}
 }

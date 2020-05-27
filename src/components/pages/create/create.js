@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import fire from '../config/fire.js'
+import fire from '../../firebase.js'
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTools } from "@fortawesome/free-solid-svg-icons";
@@ -69,26 +69,26 @@ class Create extends Component {
       return (
           // <div className="login">
           //   <FontAwesomeIcon icon={faTools} className="login_icons"/>
-          //   <h1>Socialite in Progress</h1>
+          //   <onents\pages\talent.js>Socialite in Progress</h1>
           // </div>
           <div id="wrapper">
-            <a href="#/login" class="my-super-cool-btn">
+            <a href="#/talent-form" class="my-super-cool-btn">
               <div class="dots-container">
                 <div class="dot"></div>
                 <div class="dot"></div>
                 <div class="dot"></div>
                 <div class="dot"></div>
               </div>
-              <span>Talents</span>
+              <span>Talents Form</span>
             </a>
-            <a href="#/login" class="my-super-cool-btn">
+            <a href="#/brands-form" class="my-super-cool-btn">
               <div class="dots-container">
                 <div class="dot"></div>
                 <div class="dot"></div>
                 <div class="dot"></div>
                 <div class="dot"></div>
               </div>
-              <span>Brands</span>
+              <span>Brands Form</span>
             </a>
           </div>
       );

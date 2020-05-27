@@ -22,53 +22,36 @@ class Home extends Component {
       return (
           <React.Fragment>
             <div>
-              <Carousel infiniteLoop autoPlay interval={8000} stopOnHover={false} showThumbs={false} showStatus={false}>
+              <Carousel infiniteLoop interval={8000} autoPlay stopOnHover={false} showThumbs={false} showStatus={false}>
                   <div>
                       <img src={Talent}/>
-                      <div className="legend">
-                      <h1 className="slideshow_title talent">TALENT ON DEMAND</h1>
-                        <a href="#/login" class="brk-btn mobile_hidden">
-                            Request Talent
-                        </a>
-                        <p className ="carousel_talent_text">For Event Mangers, <br/>Hotels, Catering Companies, and Experiential Marketing Agencies</p>
+                      <div className="legend talent_container">
+                      <h1 className="slideshow_title talent">TALENT<br/>ON DEMAND</h1>
+                        <p className ="carousel_talent_text mobile_hidden">For Event Mangers, <br/>Hotels, Catering Companies, and Experiential Marketing Agencies</p>
                       </div>
                   </div>
                   <div>
                       <img src={Bartender}/>
                       <div className="legend">
                       <h1 className="slideshow_title">BARTENDERS <br/> &amp; <br/>  MIXOLOGISTS</h1>
-                        <a href="#/login" class="brk-btn bart mobile_hidden">
-                            Request Talent
-                        </a>
                       </div>
                   </div>
                   <div>
                       <img src={Sommelier}/>
-                      <div className="legend">
-                        <div className="down">
-                          <h1 className="slideshow_title">SOMMELIERS</h1>
-                          <a href="#/login" class="brk-btn somm mobile_hidden">
-                            Request Talent
-                        </a>
-                        </div>
+                      <div className="legend somm">
+                        <h1 className="slideshow_title">SOMMELIERS</h1>
                       </div>
                   </div>
                   <div>
                       <img src={Photographer}/>
-                      <div className="legend shifted">
-                      <h1 className="slideshow_title">PHOTOGRAPHERS <br/>  &amp; <br/>  VIDEOGRAPHERS</h1>
-                        <a href="#/login" class="brk-btn pho mobile_hidden">
-                            Request Talent
-                        </a>
+                      <div className="legend">
+                      <h1 className="slideshow_title photo">PHOTOGRAPHERS <br/>  &amp; <br/>  VIDEOGRAPHERS</h1>
                       </div>
                   </div>
                   <div>
                       <img src={EventProducer}/>
-                      <div className="legend">
+                      <div className="legend event">
                       <h1 className="slideshow_title">EVENT PRODUCERS</h1>
-                        <a href="#/login" class="brk-btn eve eve-but mobile_hidden">
-                            Request Talent
-                        </a>
                       </div>
                   </div>
               </Carousel>
@@ -76,14 +59,17 @@ class Home extends Component {
             <div>
               <img src={Logo} className="mobile_logo"/>
             </div>
-            <div className="mobile_button">
-              <a href="#/login" class="brk-btn eve eve-but">
+            <div className="button">
+              <a href="#/login" class="brk-btn mobile-frame">
                 Request Talent
               </a>
             </div>
+            <div className="mobile_description" >
+              <p className="mobile_description_text">For Event Mangers, <br/>Hotels, Catering Companies, and <br/> Experiential Marketing Agencies</p>
+            </div>
             <div className="how">
-              <div className="header process">
-                <h1>
+              <div className="header">
+                <h1 className="body_title">
                   Process
                 </h1>
               </div>
@@ -114,14 +100,14 @@ class Home extends Component {
                   </div>
                 </div>
                 <div className="text_center">
-                  <h1>
+                  <h1 className="body_title">
                     Who We Are
                   </h1>
                   <p>
                     Brand Socialite is an on-demand staffing platform for event managers, hotels, catering companies and experiential marketing agencies,
                     that uses matchmaking technology to fill shifts in real-time with promotional models, bartenders, servers and photographers.
                     Brand Socialite connects businesses with high-quality, reliable, pre-screened and professional talent who enjoy a flexible schedule
-                    while earning extra income. 
+                    while earning. 
                   </p>
                 </div>
               </div>

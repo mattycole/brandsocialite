@@ -1,16 +1,8 @@
 footer {
     position: relative;
-    bottom: 0px;
+    height: auto;
+    background-color: white;
     width: 100%;
-    bottom: 0px;
-    height: 6vh; /*calc used to do arithmetic*/
-}
-
-.footer-image {
-    position: absolute;
-    left: 48vw; /* centered */
-    height: 100%;
-    width: auto;
 }
 
 .copyright {
@@ -23,7 +15,8 @@ footer {
 
 .social_media_icons
 {
-    color: #03989e;
+    color: #E3CF9D;
     float: left;
     margin-left: 1%;
+    font-size: 3rem;
 }
