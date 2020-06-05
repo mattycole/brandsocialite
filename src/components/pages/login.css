@@ -1,26 +1,20 @@
-.temp
-{
-    padding: 10vw;
-    display: flex;
-    height: 95%;
-    justify-content: center;
-    align-items: center;
+.temp {
+  padding: 10vw;
+  display: flex;
+  height: 95%;
+  justify-content: center;
+  align-items: center;
 }
 
-.temp_icons
-{
-    color: #000;
-	text-shadow: -1.5px -1.5px 1.5px #E3CF9D, 1.5px -1.5px 1.5px #E3CF9D, -1.5px 1.5px 1.5px #E3CF9D, 1.5px 1.5px 1.5px #E3CF9D;
-    font-size: 4vw;
-    margin-right: 3rem;
-    float: left;
+.temp_icons {
+  color: #000;
+  font-size: 4vw;
+  margin-right: 3rem;
+  float: left;
 }
 
-@media only screen and (max-width:768px)
-{
-    .temp_icons
-    {
-        display: none;
-    }
+@media only screen and (max-width: 768px) {
+  .temp_icons {
+    display: none;
+  }
 }
-
