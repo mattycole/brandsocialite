@@ -1,5 +1,5 @@
 {
-  "homepage": "http://brandsocialite.com",
+  "homepage": "http://daniel-covelli.github.io/brandsocialite",
   "name": "socialite_website",
   "version": "0.1.0",
   "private": true,
@@ -37,7 +37,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist"
   },
   "eslintConfig": {
     "extends": "react-app"
