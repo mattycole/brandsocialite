@@ -40,7 +40,7 @@
 }
 
 .carousel_talent_text {
-  font-size: 3em;
+  font-size: 2vw;
   position: relative;
   width: 100%;
 
@@ -67,11 +67,11 @@
   margin-bottom: 3%;
   color: #fff;
   text-shadow: none;
-  font-size: 5em;
+  font-size: 3vw;
 }
 
 .slideshow_image {
-  filter: brightness(75%);
+  filter: brightness(60%);
 }
 
 . h1 {
@@ -129,13 +129,13 @@ p {
 
 .title {
   margin-bottom: 3%;
-  font-size: 3em;
+  font-size: 3vw;
 }
 
 .icon_text {
   text-indent: 0;
   margin-top: 1em;
-  font-size: 2em;
+  font-size: 2vw;
 }
 
 .icons {

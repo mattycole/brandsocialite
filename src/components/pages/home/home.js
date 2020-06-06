@@ -100,7 +100,7 @@ class Home extends Component {
           <div className='process'>
             <div className='row'>
               <div className='column'>
-                <p className='title'>Create a Profile</p>
+                <p className='title'>Sign Up</p>
                 <div className='icons'>
                   <FontAwesomeIcon icon={faUserCircle} />
                 </div>
@@ -109,7 +109,7 @@ class Home extends Component {
                 </p>
               </div>
               <div className='column'>
-                <p className='title'>Sign Up</p>
+                <p className='title'>Make a Profile</p>
                 <div className='icons'>
                   <FontAwesomeIcon icon={faPen} />
                 </div>
