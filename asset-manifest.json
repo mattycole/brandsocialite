@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/brandsocialite.com/static/css/main.1164c3c8.chunk.css",
+    "main.js": "/brandsocialite.com/static/js/main.680981ea.chunk.js",
+    "main.js.map": "/brandsocialite.com/static/js/main.680981ea.chunk.js.map",
+    "runtime-main.js": "/brandsocialite.com/static/js/runtime-main.5e466d55.js",
+    "runtime-main.js.map": "/brandsocialite.com/static/js/runtime-main.5e466d55.js.map",
+    "static/css/2.c2f27783.chunk.css": "/brandsocialite.com/static/css/2.c2f27783.chunk.css",
+    "static/js/2.7ade7fab.chunk.js": "/brandsocialite.com/static/js/2.7ade7fab.chunk.js",
+    "static/js/2.7ade7fab.chunk.js.map": "/brandsocialite.com/static/js/2.7ade7fab.chunk.js.map",
+    "index.html": "/brandsocialite.com/index.html",
+    "precache-manifest.02ee2d4973ae8c3819d61b8e6999d933.js": "/brandsocialite.com/precache-manifest.02ee2d4973ae8c3819d61b8e6999d933.js",
+    "service-worker.js": "/brandsocialite.com/service-worker.js",
+    "static/css/2.c2f27783.chunk.css.map": "/brandsocialite.com/static/css/2.c2f27783.chunk.css.map",
+    "static/css/main.1164c3c8.chunk.css.map": "/brandsocialite.com/static/css/main.1164c3c8.chunk.css.map",
+    "static/js/2.7ade7fab.chunk.js.LICENSE.txt": "/brandsocialite.com/static/js/2.7ade7fab.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/brandsocialite.com/static/media/BebasNeue-Regular.cca5d8a1.eot",
+    "static/media/bartender.jpg": "/brandsocialite.com/static/media/bartender.0c1f680e.jpg",
+    "static/media/brand_page.jpg": "/brandsocialite.com/static/media/brand_page.d10b9853.jpg",
+    "static/media/event.jpg": "/brandsocialite.com/static/media/event.9f4ac367.jpg",
+    "static/media/flat_logo.PNG": "/brandsocialite.com/static/media/flat_logo.513f3735.PNG",
+    "static/media/photographer_old.jpg": "/brandsocialite.com/static/media/photographer_old.3aef078f.jpg",
+    "static/media/sommelier.jpg": "/brandsocialite.com/static/media/sommelier.b2cd9468.jpg",
+    "static/media/talent.jpg": "/brandsocialite.com/static/media/talent.659e1e46.jpg",
+    "static/media/transparent_logo.png": "/brandsocialite.com/static/media/transparent_logo.41428434.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5e466d55.js",
+    "static/css/2.c2f27783.chunk.css",
+    "static/js/2.7ade7fab.chunk.js",
+    "static/css/main.1164c3c8.chunk.css",
+    "static/js/main.680981ea.chunk.js"
+  ]
+}
