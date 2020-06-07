@@ -50,13 +50,6 @@ export default class DynamicNavBar extends Component {
                     Join
                   </a>
                 </li>
-                <li class='menu__list-item'>
-                  <a
-                    class='menu__link'
-                    href='https://forms.gle/TYXh2Z7BzRDDVaq16'>
-                    Login
-                  </a>
-                </li>
               </ul>
             </div>
           </nav>
@@ -81,10 +74,6 @@ export default class DynamicNavBar extends Component {
           <a href='#/create' className='links noSelect'>
             <FontAwesomeIcon icon={faUserCircle} />
             <span> Join</span>
-          </a>
-          <a href='#/login' className='links noSelect'>
-            <FontAwesomeIcon icon={faUserAlt} />
-            <span> Login</span>
           </a>
           <footer>
             <a

@@ -141,6 +141,18 @@ class Home extends Component {
                 enjoy a flexible schedule while earning.
               </p>
             </div>
+            <div className='text_center'>
+              <h1 className='body_title'>Contact</h1>
+              <p className='icon_text'>
+                Brand Socialite is an on-demand staffing platform for event
+                managers, hotels, catering companies and experiential marketing
+                agencies, that uses matchmaking technology to fill shifts in
+                real-time with promotional models, bartenders, servers and
+                photographers. Brand Socialite connects businesses with
+                high-quality, reliable, pre-screened and professional talent who
+                enjoy a flexible schedule while earning.
+              </p>
+            </div>
           </div>
         </div>
       </React.Fragment>
