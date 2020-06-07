@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f282f777dadc064ace450554ba033ca4",
+    "revision": "04faf8eae1965b748917eeff7fcbb07c",
     "url": "/brandsocialite.com/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/brandsocialite.com/static/css/2.c2f27783.chunk.css"
   },
   {
-    "revision": "30dd1dba62aebc58d039",
-    "url": "/brandsocialite.com/static/css/main.740229b8.chunk.css"
+    "revision": "56120d220656d08a3294",
+    "url": "/brandsocialite.com/static/css/main.da983504.chunk.css"
   },
   {
     "revision": "7a54f0445eee88a36193",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/brandsocialite.com/static/js/2.d89e9a74.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "30dd1dba62aebc58d039",
-    "url": "/brandsocialite.com/static/js/main.5e262ac5.chunk.js"
+    "revision": "56120d220656d08a3294",
+    "url": "/brandsocialite.com/static/js/main.c5a67a29.chunk.js"
   },
   {
     "revision": "b7336000d6c8411b01fb",
