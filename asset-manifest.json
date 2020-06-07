@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/brandsocialite.com/static/css/main.1164c3c8.chunk.css",
-    "main.js": "/brandsocialite.com/static/js/main.680981ea.chunk.js",
-    "main.js.map": "/brandsocialite.com/static/js/main.680981ea.chunk.js.map",
+    "main.css": "/brandsocialite.com/static/css/main.740229b8.chunk.css",
+    "main.js": "/brandsocialite.com/static/js/main.5e262ac5.chunk.js",
+    "main.js.map": "/brandsocialite.com/static/js/main.5e262ac5.chunk.js.map",
     "runtime-main.js": "/brandsocialite.com/static/js/runtime-main.5e466d55.js",
     "runtime-main.js.map": "/brandsocialite.com/static/js/runtime-main.5e466d55.js.map",
     "static/css/2.c2f27783.chunk.css": "/brandsocialite.com/static/css/2.c2f27783.chunk.css",
-    "static/js/2.7ade7fab.chunk.js": "/brandsocialite.com/static/js/2.7ade7fab.chunk.js",
-    "static/js/2.7ade7fab.chunk.js.map": "/brandsocialite.com/static/js/2.7ade7fab.chunk.js.map",
+    "static/js/2.d89e9a74.chunk.js": "/brandsocialite.com/static/js/2.d89e9a74.chunk.js",
+    "static/js/2.d89e9a74.chunk.js.map": "/brandsocialite.com/static/js/2.d89e9a74.chunk.js.map",
     "index.html": "/brandsocialite.com/index.html",
-    "precache-manifest.02ee2d4973ae8c3819d61b8e6999d933.js": "/brandsocialite.com/precache-manifest.02ee2d4973ae8c3819d61b8e6999d933.js",
+    "precache-manifest.9a749277dc812554fe6ac11989061941.js": "/brandsocialite.com/precache-manifest.9a749277dc812554fe6ac11989061941.js",
     "service-worker.js": "/brandsocialite.com/service-worker.js",
     "static/css/2.c2f27783.chunk.css.map": "/brandsocialite.com/static/css/2.c2f27783.chunk.css.map",
-    "static/css/main.1164c3c8.chunk.css.map": "/brandsocialite.com/static/css/main.1164c3c8.chunk.css.map",
-    "static/js/2.7ade7fab.chunk.js.LICENSE.txt": "/brandsocialite.com/static/js/2.7ade7fab.chunk.js.LICENSE.txt",
+    "static/css/main.740229b8.chunk.css.map": "/brandsocialite.com/static/css/main.740229b8.chunk.css.map",
+    "static/js/2.d89e9a74.chunk.js.LICENSE.txt": "/brandsocialite.com/static/js/2.d89e9a74.chunk.js.LICENSE.txt",
     "static/media/index.css": "/brandsocialite.com/static/media/BebasNeue-Regular.cca5d8a1.eot",
     "static/media/bartender.jpg": "/brandsocialite.com/static/media/bartender.0c1f680e.jpg",
     "static/media/brand_page.jpg": "/brandsocialite.com/static/media/brand_page.d10b9853.jpg",
@@ -27,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.5e466d55.js",
     "static/css/2.c2f27783.chunk.css",
-    "static/js/2.7ade7fab.chunk.js",
-    "static/css/main.1164c3c8.chunk.css",
-    "static/js/main.680981ea.chunk.js"
+    "static/js/2.d89e9a74.chunk.js",
+    "static/css/main.740229b8.chunk.css",
+    "static/js/main.5e262ac5.chunk.js"
   ]
 }
