@@ -14,7 +14,7 @@ Color Theme: #03989e
 >- make brand and talent text responsive
 >- make talent and brand specific form changes
 >- make Navbar and carousel more responsive
->- make talent and brand buttons look better
+>- change talent and brand buttonsin join route
 
 ## Available Scripts
 
