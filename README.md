@@ -4,7 +4,7 @@ Please use nvm and set the node version! [How?](https://docs.google.com/document
 
 How to run React [locally](https://docs.google.com/document/d/1_R6Y2-b0MOct-ff1CEW1j4QDdLpTALYhh9R7zgDt7rI/edit?usp=sharing)?
 
-## Socialite
+## Brand Socialite
 This repository consists of the prototype website for Socialite. Our goal is to...
 
 Color Theme: #03989e
@@ -15,17 +15,13 @@ Color Theme: #03989e
 >- make talent and brand specific form changes
 >- make Navbar and carousel more responsive
 
-### Running on GitHub
-Tutorial: https://github.com/gitname/react-gh-pages
-
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+>### `npm start`
+>Runs the app in the development mode.<br />
+>Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
