@@ -1,72 +1,65 @@
-.talent_header
-{
-    display: inline-flex;
-    position: relative;
-    padding-top: 5vw;
-    text-align: center;
-    width: 100%;
-    height: auto;
+.talent_header {
+  display: inline-flex;
+  position: relative;
+  padding-top: 2vw;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  text-shadow: -1.5px -1.5px 1.5px #e3cf9d, 1.5px -1.5px 1.5px #e3cf9d,
+    -1.5px 1.5px 1.5px #e3cf9d, 1.5px 1.5px 1.5px #e3cf9d;
 }
 
-.text
-{
-    color: #000;
-	text-shadow: -1.5px -1.5px 1.5px #E3CF9D, 1.5px -1.5px 1.5px #E3CF9D, -1.5px 1.5px 1.5px #E3CF9D, 1.5px 1.5px 1.5px #E3CF9D;
-    position: relative;
-	margin-left: 20%;
-    margin-right: 20%;
-    text-align: center;
+.text {
+  color: #000;
+  position: relative;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
 }
 
-.imageContainer 
-{
-    position: relative;
-    width: 40vw;
-    height: 40vw;
-    margin-left: 5vw;
+.body_text {
+  text-indent: 0;
+  margin-top: 1em;
+  font-size: 1.5vw;
 }
 
-.container
-{
-    height: auto !important;
+.imageContainer {
+  position: relative;
+  width: 40vw;
+  height: 40vw;
+  margin-left: 5vw;
 }
 
-@media only screen and (max-width:1150px) 
-{
-    .imageContainer
-    {
-        display: none;
-    }
+.container {
+  height: auto !important;
 }
 
-@media only screen and (max-width:768px)
-{
-    .container
-    {
-        margin-top: 50px;
-    }
-    .talent_header_text
-    {
-        font-size: 3rem !important;
-    }
-    p
-    {
-        font-size: 2rem;
-    }
+@media only screen and (max-width: 1150px) {
+  .imageContainer {
+    display: none;
+  }
 }
 
-@media only screen and (max-width:426px)
-{
-    .container
-    {
-        margin-top: 70px;
-    }
-    .talent_header_text
-    {
-        font-size: 2rem !important;
-    }
-    p
-    {
-        font-size: 1.5rem;
-    }
+@media only screen and (max-width: 768px) {
+  .container {
+    margin-top: 50px;
+  }
+  .talent_header_text {
+    font-size: 3rem !important;
+  }
+  p {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .container {
+    margin-top: 70px;
+  }
+  .talent_header_text {
+    font-size: 2rem !important;
+  }
+  p {
+    font-size: 1.5rem;
+  }
 }
