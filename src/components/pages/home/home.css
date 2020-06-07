@@ -76,13 +76,13 @@
 
 . h1 {
   font-weight: bold;
-  font-size: 2.7vw !important;
+  font-size: 2vw !important;
   letter-spacing: 0.2em;
   padding-bottom: 2vw;
 }
 
 p {
-  font-size: 5vw;
+  font-size: 4.5vw;
 }
 
 .shifted {
@@ -120,6 +120,10 @@ p {
   clear: both;
 }
 
+.body_title {
+  font-size: 4vw !important;
+}
+
 .column {
   float: left;
   width: 33.3%;
@@ -129,19 +133,19 @@ p {
 
 .title {
   margin-bottom: 3%;
-  font-size: 3vw;
+  font-size: 2.5vw;
 }
 
 .icon_text {
   text-indent: 0;
   margin-top: 1em;
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 
 .icons {
   position: relative;
   margin: auto;
-  font-size: 6vw;
+  font-size: 5.5vw;
 }
 
 .button {
@@ -177,7 +181,7 @@ a:hover {
     margin: 10%;
   }
   .body_title {
-    font-size: 8vw !important;
+    font-size: 7.5vw !important;
   }
   .carousel .slide .legend {
     top: 20vw !important;
@@ -199,10 +203,6 @@ a:hover {
 
   .icon_text {
     display: none;
-  }
-
-  .text_center {
-    margin-top: 10vw;
   }
 
   .talent_container {

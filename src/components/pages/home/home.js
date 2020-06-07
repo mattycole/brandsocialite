@@ -82,8 +82,8 @@ class Home extends Component {
           <img src={Logo} className='mobile_logo' />
         </div>
         <div className='button'>
-          <a href='#/login' class='brk-btn mobile-frame'>
-            Request Talent
+          <a href='#/create' class='brk-btn mobile-frame'>
+            Join Now
           </a>
         </div>
         <div className='mobile_description'>
@@ -94,10 +94,22 @@ class Home extends Component {
           </p>
         </div>
         <div className='how'>
-          <div className='header'>
-            <h1 className='body_title'>Process</h1>
-          </div>
           <div className='process'>
+            <div className='text_center'>
+              <h1 className='body_title'>Transforming Event Management</h1>
+              <p className='icon_text'>
+                Brand Socialite is an on-demand staffing platform for event
+                managers, hotels, catering companies and experiential marketing
+                agencies, that uses matchmaking technology to fill shifts in
+                real-time with promotional models, bartenders, servers and
+                photographers. Brand Socialite connects businesses with
+                high-quality, reliable, pre-screened and professional talent who
+                enjoy a flexible schedule while earning.
+              </p>
+            </div>
+            <div className='header'>
+              <h1 className='body_title'>How it works</h1>
+            </div>
             <div className='row'>
               <div className='column'>
                 <p className='title'>Sign Up</p>
@@ -129,29 +141,11 @@ class Home extends Component {
                 </p>
               </div>
             </div>
+
             <div className='text_center'>
-              <h1 className='body_title'>Who We Are</h1>
-              <p className='icon_text'>
-                Brand Socialite is an on-demand staffing platform for event
-                managers, hotels, catering companies and experiential marketing
-                agencies, that uses matchmaking technology to fill shifts in
-                real-time with promotional models, bartenders, servers and
-                photographers. Brand Socialite connects businesses with
-                high-quality, reliable, pre-screened and professional talent who
-                enjoy a flexible schedule while earning.
-              </p>
-            </div>
-            <div className='text_center'>
-              <h1 className='body_title'>Contact</h1>
-              <p className='icon_text'>
-                Brand Socialite is an on-demand staffing platform for event
-                managers, hotels, catering companies and experiential marketing
-                agencies, that uses matchmaking technology to fill shifts in
-                real-time with promotional models, bartenders, servers and
-                photographers. Brand Socialite connects businesses with
-                high-quality, reliable, pre-screened and professional talent who
-                enjoy a flexible schedule while earning.
-              </p>
+              <h1 className='body_title'>Contact Us</h1>
+              <p className='icon_text'>(310) 845-6608</p>
+              <p className='icon_text'>info@brandsocialite.com</p>
             </div>
           </div>
         </div>
