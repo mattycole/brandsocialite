@@ -12,6 +12,7 @@ Color Theme: #03989e
 >### TO-DO
 >- update readme
 >- make brand and talent text responsive
+>- make talent and brand specific form changes
 
 ### Running on GitHub
 Tutorial: https://github.com/gitname/react-gh-pages
