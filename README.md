@@ -2,6 +2,10 @@
 Node Version: 13.11.0 (Latest version as of 03/14/2020)
 Please use nvm and set the node version! [How?](https://docs.google.com/document/d/1MTrKA_wmimyGPi22mjOnmANXA7dDTP7Ld1qmDjFvh9k/edit?usp=sharing)
 
+###TO-DO
+>update readme
+>make brand and talent text responsive
+
 How to run React [locally](https://docs.google.com/document/d/1_R6Y2-b0MOct-ff1CEW1j4QDdLpTALYhh9R7zgDt7rI/edit?usp=sharing)?
 
 ## Socialite
