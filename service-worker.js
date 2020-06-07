@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/brandsocialite.com/precache-manifest.000cde351f32f770abd8b3543a83a50f.js"
+  "/brandsocialite.com/precache-manifest.45a8a1f742b6ee9766bb735dad9c2103.js"
 );
 
 self.addEventListener('message', (event) => {

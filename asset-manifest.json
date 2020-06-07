@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/brandsocialite.com/static/css/main.da983504.chunk.css",
-    "main.js": "/brandsocialite.com/static/js/main.c5a67a29.chunk.js",
-    "main.js.map": "/brandsocialite.com/static/js/main.c5a67a29.chunk.js.map",
+    "main.css": "/brandsocialite.com/static/css/main.109226ae.chunk.css",
+    "main.js": "/brandsocialite.com/static/js/main.e1f7f6d9.chunk.js",
+    "main.js.map": "/brandsocialite.com/static/js/main.e1f7f6d9.chunk.js.map",
     "runtime-main.js": "/brandsocialite.com/static/js/runtime-main.5e466d55.js",
     "runtime-main.js.map": "/brandsocialite.com/static/js/runtime-main.5e466d55.js.map",
     "static/css/2.c2f27783.chunk.css": "/brandsocialite.com/static/css/2.c2f27783.chunk.css",
     "static/js/2.d89e9a74.chunk.js": "/brandsocialite.com/static/js/2.d89e9a74.chunk.js",
     "static/js/2.d89e9a74.chunk.js.map": "/brandsocialite.com/static/js/2.d89e9a74.chunk.js.map",
     "index.html": "/brandsocialite.com/index.html",
-    "precache-manifest.000cde351f32f770abd8b3543a83a50f.js": "/brandsocialite.com/precache-manifest.000cde351f32f770abd8b3543a83a50f.js",
+    "precache-manifest.45a8a1f742b6ee9766bb735dad9c2103.js": "/brandsocialite.com/precache-manifest.45a8a1f742b6ee9766bb735dad9c2103.js",
     "service-worker.js": "/brandsocialite.com/service-worker.js",
     "static/css/2.c2f27783.chunk.css.map": "/brandsocialite.com/static/css/2.c2f27783.chunk.css.map",
-    "static/css/main.da983504.chunk.css.map": "/brandsocialite.com/static/css/main.da983504.chunk.css.map",
+    "static/css/main.109226ae.chunk.css.map": "/brandsocialite.com/static/css/main.109226ae.chunk.css.map",
     "static/js/2.d89e9a74.chunk.js.LICENSE.txt": "/brandsocialite.com/static/js/2.d89e9a74.chunk.js.LICENSE.txt",
     "static/media/index.css": "/brandsocialite.com/static/media/BebasNeue-Regular.cca5d8a1.eot",
     "static/media/bartender.jpg": "/brandsocialite.com/static/media/bartender.0c1f680e.jpg",
@@ -28,7 +28,7 @@
     "static/js/runtime-main.5e466d55.js",
     "static/css/2.c2f27783.chunk.css",
     "static/js/2.d89e9a74.chunk.js",
-    "static/css/main.da983504.chunk.css",
-    "static/js/main.c5a67a29.chunk.js"
+    "static/css/main.109226ae.chunk.css",
+    "static/js/main.e1f7f6d9.chunk.js"
   ]
 }
