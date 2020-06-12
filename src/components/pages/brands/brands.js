@@ -32,7 +32,7 @@ class Brand extends Component {
           </p>
         </div>
         <div className='button'>
-          <a href='https://forms.gle/zfJoS6aVmSmyhUYY8' class='brk-btn mobile-frame'>
+          <a href='https://forms.gle/MB7cJ2apZUy5FELS7' class='brk-btn mobile-frame'>
             Host an Event
           </a>
         </div>
