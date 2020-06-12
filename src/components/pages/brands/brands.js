@@ -22,8 +22,18 @@ class Brand extends Component {
           </p>
         </div>
         <div className='button'>
-          <a href='#/create' class='brk-btn mobile-frame'>
-            Join Now
+          <a href='https://forms.gle/zfJoS6aVmSmyhUYY8' class='brk-btn mobile-frame'>
+            Get Started
+          </a>
+        </div>
+        <div className='text'>
+          <p className='body_text'>
+            Once you've signed up, you can start finding talent for your next event.
+          </p>
+        </div>
+        <div className='button'>
+          <a href='https://forms.gle/zfJoS6aVmSmyhUYY8' class='brk-btn mobile-frame'>
+            Host an Event
           </a>
         </div>
       </div>

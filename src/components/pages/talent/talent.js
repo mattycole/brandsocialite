@@ -20,8 +20,8 @@ class Talent extends Component {
             </p>
           </div>
           <div className='button'>
-            <a href='#/create' class='brk-btn mobile-frame'>
-              Join Now
+            <a href='https://forms.gle/ZrnbUBZmr9VyoGR66' class='brk-btn mobile-frame'>
+              Sign Up
             </a>
           </div>
         </div>

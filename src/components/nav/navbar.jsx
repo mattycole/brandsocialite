@@ -45,11 +45,6 @@ export default class DynamicNavBar extends Component {
                     Brands
                   </a>
                 </li>
-                <li class='menu__list-item'>
-                  <a class='menu__link' href='#/create'>
-                    Join
-                  </a>
-                </li>
               </ul>
             </div>
           </nav>

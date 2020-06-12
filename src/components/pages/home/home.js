@@ -82,8 +82,11 @@ class Home extends Component {
           <img src={Logo} className='mobile_logo' />
         </div>
         <div className='button'>
-          <a href='#/create' class='brk-btn mobile-frame'>
-            Join Now
+          <a href='#/brands' class='brk-btn mobile-frame'>
+            Brands
+          </a>
+          <a href='#/talent' class='brk-btn mobile-frame'>
+            Talent
           </a>
         </div>
         <div className='mobile_description'>
