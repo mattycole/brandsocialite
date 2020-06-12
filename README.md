@@ -9,13 +9,6 @@ This repository consists of the prototype website for Socialite. Our goal is to.
 
 Color Theme: #03989e
 
->### TO-DO
->- update readme
->- make brand and talent text responsive
->- make talent and brand specific form changes
->- make Navbar and carousel more responsive
->- change talent and brand buttonsin join route
-
 ## Available Scripts
 
 In the project directory, you can run:
