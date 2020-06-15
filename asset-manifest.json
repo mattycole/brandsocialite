@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.4fa8a2e9.chunk.css",
-    "main.js": "/static/js/main.445425de.chunk.js",
-    "main.js.map": "/static/js/main.445425de.chunk.js.map",
+    "main.js": "/static/js/main.db385add.chunk.js",
+    "main.js.map": "/static/js/main.db385add.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e90a7672.js",
     "runtime-main.js.map": "/static/js/runtime-main.e90a7672.js.map",
     "static/css/2.c2f27783.chunk.css": "/static/css/2.c2f27783.chunk.css",
-    "static/js/2.f143aa76.chunk.js": "/static/js/2.f143aa76.chunk.js",
-    "static/js/2.f143aa76.chunk.js.map": "/static/js/2.f143aa76.chunk.js.map",
+    "static/js/2.6510d1f5.chunk.js": "/static/js/2.6510d1f5.chunk.js",
+    "static/js/2.6510d1f5.chunk.js.map": "/static/js/2.6510d1f5.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.dd9479f97ad143ffc27fecbceb13dd4e.js": "/precache-manifest.dd9479f97ad143ffc27fecbceb13dd4e.js",
+    "precache-manifest.e5208cf6f4abc1426c9a7390c22457c4.js": "/precache-manifest.e5208cf6f4abc1426c9a7390c22457c4.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.c2f27783.chunk.css.map": "/static/css/2.c2f27783.chunk.css.map",
     "static/css/main.4fa8a2e9.chunk.css.map": "/static/css/main.4fa8a2e9.chunk.css.map",
-    "static/js/2.f143aa76.chunk.js.LICENSE.txt": "/static/js/2.f143aa76.chunk.js.LICENSE.txt",
+    "static/js/2.6510d1f5.chunk.js.LICENSE.txt": "/static/js/2.6510d1f5.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/BebasNeue-Regular.cca5d8a1.eot",
     "static/media/bartender.jpg": "/static/media/bartender.0c1f680e.jpg",
     "static/media/brand_page.jpg": "/static/media/brand_page.d10b9853.jpg",
@@ -27,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.e90a7672.js",
     "static/css/2.c2f27783.chunk.css",
-    "static/js/2.f143aa76.chunk.js",
+    "static/js/2.6510d1f5.chunk.js",
     "static/css/main.4fa8a2e9.chunk.css",
-    "static/js/main.445425de.chunk.js"
+    "static/js/main.db385add.chunk.js"
   ]
 }
