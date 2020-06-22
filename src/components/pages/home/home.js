@@ -147,8 +147,8 @@ class Home extends Component {
 
             <div className='text_center'>
               <h1 className='body_title'>Contact Us</h1>
-              <p className='icon_text'>(310) 845-6608</p>
-              <p className='icon_text'>info@brandsocialite.com</p>
+              <p className='contact_text'>(310) 845-6608</p>
+              <p className='contact_text'>info@brandsocialite.com</p>
             </div>
           </div>
         </div>

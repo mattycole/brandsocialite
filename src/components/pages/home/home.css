@@ -142,6 +142,15 @@ p {
   font-size: 1.5vw;
 }
 
+/*contact_text is identical to icon_text, except that its visible on mobile.*/
+.contact_text {
+  text-indent: 0;
+  margin-top: 1em;
+  font-size: 1.5vw;
+}
+
+
+
 .icons {
   position: relative;
   margin: auto;
@@ -171,6 +180,10 @@ a:hover {
 
 @media only screen and (max-width: 600px) {
   .icon_text {
+    font-size: 0.5em;
+  }
+
+  .contact_text {
     font-size: 0.5em;
   }
 }
@@ -204,6 +217,11 @@ a:hover {
   .icon_text {
     display: none;
   }
+
+  .contact_text {
+    font-size: 0.5em;
+  }
+
 
   .talent_container {
     height: 35vw !important;

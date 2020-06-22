@@ -22,9 +22,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
         <a href="https://www.instagram.com/brandsocialite" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faInstagram} className="social_media_icons"/> 
         </a>
-        {/* <a href="" target="_blank" rel="noopener noreferrer">
+        <a href="https://twitter.com/Brand_Socialite" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faTwitter} className="social_media_icons"/> 
-        </a> */}
+        </a>
         <a href="https://www.linkedin.com/company/brandsocialite" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faLinkedin} className="social_media_icons"/> 
         </a>
