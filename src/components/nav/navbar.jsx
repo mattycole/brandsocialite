@@ -66,12 +66,8 @@ export default class DynamicNavBar extends Component {
             <FontAwesomeIcon icon={faBuilding} />
             <span> Brands</span>
           </a>
-          <a href='#/create' className='links noSelect'>
-            <FontAwesomeIcon icon={faUserCircle} />
-            <span> Join</span>
-          </a>
           <footer>
-            <a
+            {/* <a
               href='https://www.facebook.com/brandsocialiteinc'
               target='_blank'
               rel='noopener noreferrer'>
@@ -100,7 +96,7 @@ export default class DynamicNavBar extends Component {
                 size='2x'
                 className='social_media_icons'
               />
-            </a>
+            </a> */}
             <div className='copyright'>
               <h>© {new Date().getFullYear()}, Brand Socialite Inc.</h>
             </div>

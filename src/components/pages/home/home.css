@@ -219,9 +219,12 @@ a:hover {
   }
 
   .contact_text {
-    font-size: 0.5em;
+    font-size: 4.5vw;
   }
 
+  .title {
+    font-size: 3.0vw;
+  }
 
   .talent_container {
     height: 35vw !important;

@@ -89,6 +89,7 @@ class Home extends Component {
             Talent
           </a>
         </div>
+        
         <div className='mobile_description'>
           <p className='mobile_description_text'>
             For Event Mangers, <br />
@@ -147,8 +148,8 @@ class Home extends Component {
 
             <div className='text_center'>
               <h1 className='body_title'>Contact Us</h1>
-              <p className='contact_text'>(310) 845-6608</p>
-              <p className='contact_text'>info@brandsocialite.com</p>
+              <p className='contact_text'><a href="tel:310-845-6608">(310) 845-6608</a></p>
+              <p className='contact_text'><a href="mailto:info@brandsociallite.com">info@brandsociallite.com</a></p>
             </div>
           </div>
         </div>

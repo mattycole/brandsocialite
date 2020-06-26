@@ -50,6 +50,11 @@
   p {
     font-size: 2rem;
   }
+  .body_text {
+    text-indent: 0;
+    margin-top: 1em;
+    font-size: 4vw;
+  }
 }
 
 @media only screen and (max-width: 426px) {
@@ -61,5 +66,10 @@
   }
   p {
     font-size: 1.5rem;
+  }
+  .body_text {
+    text-indent: 0;
+    margin-top: 1em;
+    font-size: 4.5vw;
   }
 }
